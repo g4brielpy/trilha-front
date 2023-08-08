@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    background-image: url('img/aula-3/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(201, 201, 201);
+}
+
+.topo{
+    background-color: #0078f2;
+    text-align: center;
+    padding: 10px 20px;
+}
+.topo p{
+    color: #ffffff;
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.secao{
+    text-align: center;
+    width: 600px;
+    margin: 10px auto;
+    
+}
+.secao h1{
+    text-align: left;
+}
+.secao img{
+    width: 100%;
+}
+.secao span{
+    font-weight: bold;
+    color: #ffffff;
+}
+.secao p{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+/*estilizando a box*/
+.box{
+    text-align: center;
+    width: 350px;
+    margin: 10px auto;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    padding: 0px 20px 20px;
+}
+.box p{
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+.box a{
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 20px
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body{
+    background-color: #F1F1F1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+
+img{
+    width: 190px;
+}
+
+h1{
+    font-size: 24px;
+    color: #606062;
+    padding: 10px;
+    border: 5px solid #606062;
+}
+
+h2{
+    font-size: 20px;
+    color: #7a797b;
+    margin: 35px 0px;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: normal;
+    color: #606062;
+    border-top: 2px solid #606062;
+    border-bottom: 2px solid #606062;
+    padding: 10px 0px;
+    margin-top: 30px;
+}
+
+p{
+    color: #616163;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+span{
+    font-weight: bold;
+}
+
+#whatsapp{
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #25D366;
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin-top: 15px;
+}

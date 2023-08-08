@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+}
+
+.cabecario{
+    border-bottom: 1px solid #d5d5d5;
+    margin: 0;    
+}
+.cabecario p{
+    font-weight: bold;
+    width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.topo{
+    background-image: url('img/capa.jpg');
+    background-size: cover;
+    min-height: 500px;
+    padding: 50px 0px;
+}
+.topo h1, .topo h2{
+    width: 800px;
+    text-align: right;
+    margin: 0px auto;
+}
+
+.conteudo{
+    width: 800px;
+    margin: 50px auto;
+}
+.conteudo img{
+    width: 250px;
+    height: 180px;   
+}
+.conteudo span{
+    font-size: 18px;
+    border-left: 1px solid #000000;
+    padding-left:10px;
+}
+
+/*seção imagens destaques | fixed*/
+.ilustrativa{
+    background-image: url('img/fundo.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+.texto-ilustrativa{
+    font-size: 36px;
+    text-align: center;
+    width: 200px;
+    margin: 0px auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+}

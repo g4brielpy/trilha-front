@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0px;
+}
+
+.topo{
+    min-height: 600px;
+    background-image: url('img/capa.jpg');
+    background-size: cover;
+    background-attachment: fixed; 
+    text-align: center;
+    padding: 50px;
+}
+
+.topo h1, h2{
+    color: #ffffff;
+    width: 300px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.topo h1{
+    background-color: #000000;
+}
+
+.topo h2{
+    background-color: #ff0000;
+}
+
+.secao{
+    width: 800px;
+    text-align: justify;
+    margin: 50px auto;
+}
+
+.secao img{
+    height: 300px;
+}
+
+p{
+    line-height: 28px;
+}
+
+.destaque{
+    background-image: url('img/img1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+}
+
+.text-destaque{
+    text-align: left;
+    color: #ffffff;
+    background-color: #ff0000;
+    padding: 10px 25px;
+}
