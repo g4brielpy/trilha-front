@@ -26,16 +26,19 @@
 }
 
 .topo img{
-    width: 00%;
+    width: 100%;
     margin-bottom: 10px;
 }
-
-.galeria{
+.conteudo{
+    height: 200px;
+    background-color: #c4c0c070;
+    overflow-y: scroll;
+    padding: 20px;
+    border-radius: 5px
 }
-.galeria img{
-    width: calc(100% /3);
-    
 
+.galeria img{
+    width: calc((100% - 35px)/3);
 }
 
 h2{
@@ -44,5 +47,6 @@ h2{
 
 p{
     text-align: justify;
-    margin-top: 15px;
+    margin-top: 20px;
+    line-height: 25px
 }
