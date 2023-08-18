@@ -28,6 +28,7 @@ div{
     text-decoration: none;
     margin: 0px 10px;
     border-bottom: 2px solid #1d1d1d;
+    display: inline;
 }
 /*segunda seção | banner*/
 .banner img{
