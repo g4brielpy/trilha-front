@@ -1,1 +1,16 @@
 @charset "UTF-8";
+
+/*conf. geral*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*VARIÁVEIS*/
+:root{
+    --cor1: #b0ddfc;
+    --cor2: #1c81c0;
+    --cor3: #fff81d;
+    --cor4: #1d1d1d;
+    --font1: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+}
