@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: var(--font1);
 }
 
 /*VARIÁVEIS*/
@@ -13,4 +14,15 @@
     --cor3: #fff81d;
     --cor4: #1d1d1d;
     --font1: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+}
+
+/*Cabeçalho | header*/
+header{
+    background-color: var(--cor1);
+    text-align: center;
+    height: 15em
+}
+.logotipo img{
+    width: 10em;
+    margin: 1em auto;
 }
