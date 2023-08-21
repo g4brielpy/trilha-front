@@ -71,8 +71,8 @@ main h2{
 main h3{
     text-align: center;
     font-size: 1.5em;
-    padding: 2em 0 1em 0;
     color: var(--cor2);
+    margin: 0.5em 0 1em;
 }
 main p{ /*Estilo Global para todos os 'p' */
     max-width: 850px;
@@ -89,9 +89,17 @@ main p span{
 /*Seção de DESTAQUE*/
 .destaque{
     background-color: var(--cor2);
+    color: #ffffff;
+    padding: 3em 1em;
+    margin-bottom: 4em;
 }
 .destaque h3{
     color: rgb(235, 235, 235);
+}
+.destaque p{
+    max-width: 650px;
+    font-size: 1.2em;
+    text-align: center;
 }
 .destaque p span{
     color: var(--cor3);
