@@ -7,7 +7,6 @@
     font-family: var(--font1);
     box-sizing: border-box;
 }
-
 /*VARIÁVEIS*/
 :root{
     --cor1: #b0ddfc;
@@ -41,7 +40,6 @@ header nav a{
 .imagem img{  /*Estilo para todas as imagens*/
     width: 100%;
 }
-
 .imagem img[alt="Banner | Imobiliária"]{
     max-width: 1024px;
 }
@@ -54,7 +52,7 @@ header nav a{
 
 /*corpo do site | main*/
 main{
-    padding: 1em
+    padding: 0 1em;
 }
 
 main h1{
@@ -85,13 +83,18 @@ main p span{
     font-weight: bold;
     color: var(--cor2)
 }
+section{
+    margin: 3em 0;
+}
+.final{ /*ultima seção*/
+    margin-bottom: 0;
+}
 
 /*Seção de DESTAQUE*/
 .destaque{
     background-color: var(--cor2);
     color: #ffffff;
     padding: 3em 1em;
-    margin-bottom: 4em;
 }
 .destaque h3{
     color: rgb(235, 235, 235);
