@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: var(--font1);
+    box-sizing: border-box;
 }
 
 /*VARIÁVEIS*/
@@ -23,7 +24,7 @@ header{
     height: 16em;
 }
 .logotipo img{
-    width: 10em;
+    width: 9em;
     margin: 1em auto;
 }
 header nav a{
@@ -33,19 +34,32 @@ header nav a{
     border-bottom: 2px solid var(--cor4);
 }
 
-/*corpo do site | main*/
-.imagem{
+/*corpo do site | Seção de IMAGENS*/
+.imagem{ /*Estilos com a class 'imagem' | GLOBAL*/
     text-align: center;
-    background-color: #1d1d1d;
-    margin: 3em auto;
 }
-.imagem img{
-    width: 100%
+.imagem img{  /*Estilo para todas as imagens*/
+    width: 100%;
+}
+
+.imagem img[alt="Banner | Imobiliária"]{
+    max-width: 1024px;
+}
+.banner{
+    margin: 2em 0 4em ;
+}
+.imagem img[alt="Imovel"], .imagem img[alt="Imagens de corretores"]{
+    max-width: 450px;
+}
+
+/*corpo do site | main*/
+main{
+    padding: 1em
 }
 
 main h1{
     text-align: center;
-    margin: 0.2em auto;
+    margin: 0.3em auto;
     font-size: 2em;
 }
 main h2{
@@ -53,4 +67,9 @@ main h2{
     font-weight: normal;
     color: var(--cor2);
     margin-bottom: 1em;
+}
+main p{
+    max-width: 850px;
+    margin: 10px auto;
+    text-align: justify;
 }
