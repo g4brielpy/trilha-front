@@ -27,10 +27,11 @@ header{
     margin: 1em auto;
 }
 header nav a{
-    margin: 15px;
+    margin: 1em;
     color: var(--cor4);
     text-decoration: none;
     border-bottom: 2px solid var(--cor4);
+    padding: 4px ;
 }
 
 /*corpo do site | Seção de IMAGENS*/
@@ -87,7 +88,7 @@ section{
     margin: 3em 0;
 }
 .final{ /*ultima seção*/
-    margin-bottom: 0;
+    margin-bottom: 1em;
 }
 
 /*Seção de DESTAQUE*/
@@ -128,6 +129,7 @@ section{
     padding: 0.2em 0.5em;
     margin-bottom: 1.5em;
 }
+/*Links 'a'*/
 .destaque nav{
     text-align: center;
 }
@@ -141,4 +143,12 @@ section{
     color: var(--cor2);
     font-size: 0.99em;
     line-height: 1.6em;
+}
+html{ /*suavisando scroll dos links*/
+    scroll-behavior: smooth;
+}
+header a:hover{
+    background-color: #69bcf3ab;
+    border-radius: 2px;
+    transition: 1s;
 }
