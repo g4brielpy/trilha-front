@@ -74,12 +74,12 @@ main h3{
 }
 main p{ /*Estilo Global para todos os 'p' */
     max-width: 850px;
-    margin: 0.6em auto 2.5em;
+    margin: 0.6em auto;
     text-align: justify;
     line-height: 1.8em
 }
 main p span{
-    font-size: 1.1em;
+    font-size: 1.05em;
     font-weight: bold;
     color: var(--cor2)
 }
@@ -95,6 +95,7 @@ section{
     background-color: var(--cor2);
     color: #ffffff;
     padding: 3em 1em;
+    line-height: 2em
 }
 .destaque h3{
     color: rgb(235, 235, 235);
@@ -106,4 +107,38 @@ section{
 }
 .destaque p span{
     color: var(--cor3);
+}
+/*Lista destaque*/
+.destaque ul{
+    width: 150px;
+    margin: 10px auto;
+}
+/*Área CONTATO*/
+.mapa{
+    max-width: 800px;
+    text-align: center;
+    margin: 1em auto;
+}
+.mapa iframe{
+    width: 100%
+}
+.paragrafo-destaque p{
+    max-width: 1100px;
+    background-color: var(--cor4);
+    padding: 0.2em 0.5em;
+    margin-bottom: 1.5em;
+}
+.destaque nav{
+    text-align: center;
+}
+.destaque nav a{
+    display: block;
+    background-color: #ffffff;
+    margin: 10px auto;
+    width: max-content;
+    border-radius: 5px;
+    padding: 0px 5px;
+    color: var(--cor2);
+    font-size: 0.99em;
+    line-height: 1.6em;
 }
