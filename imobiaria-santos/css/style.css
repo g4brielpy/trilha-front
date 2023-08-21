@@ -104,7 +104,7 @@ section{
 .destaque p{
     max-width: 650px;
     font-size: 1.2em;
-    text-align: center;
+    text-align: justify;
 }
 .destaque p span{
     color: var(--cor3);
@@ -151,4 +151,7 @@ header a:hover{
     background-color: #69bcf3ab;
     border-radius: 2px;
     transition: 1s;
+}
+a{
+    color: var(--cor2);
 }
