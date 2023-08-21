@@ -68,8 +68,31 @@ main h2{
     color: var(--cor2);
     margin-bottom: 1em;
 }
-main p{
+main h3{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2em 0 1em 0;
+    color: var(--cor2);
+}
+main p{ /*Estilo Global para todos os 'p' */
     max-width: 850px;
-    margin: 10px auto;
+    margin: 0.6em auto 2.5em;
     text-align: justify;
+    line-height: 1.8em
+}
+main p span{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: var(--cor2)
+}
+
+/*Seção de DESTAQUE*/
+.destaque{
+    background-color: var(--cor2);
+}
+.destaque h3{
+    color: rgb(235, 235, 235);
+}
+.destaque p span{
+    color: var(--cor3);
 }
