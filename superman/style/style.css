@@ -14,7 +14,7 @@
 /*Cabeçalho | Header*/
 header{
     background-color: var(--cor1);
-    height: 5em;
+    height: 4em;
     display: flex;
     align-items: center;
 }
@@ -37,8 +37,34 @@ header nav a{
 .image-capa img{
     width: 100%;
 }
-/*Corpo do site*/
+/*Corpo do site | Sinopse*/
 main{
     max-width: 1024px;
     margin: 2em auto;
+    padding: 1.5em
+}
+main h2{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+main p{
+    line-height: 1.8rem;
+    text-align: justify;
+    margin: 1rem 0;
+}
+/*Seção disponivel*/
+.image img{
+    width: 100%;
+}
+/*galeria*/
+.galeria{
+    background-color: antiquewhite;
+    overflow-x: scroll;
+    display: flex;
+    margin: 0 auto 20px auto;
+}
+
+.galeria img{
+    width: 300px;
+    margin: 10px;
 }
