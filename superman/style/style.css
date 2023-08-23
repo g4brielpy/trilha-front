@@ -8,10 +8,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font1);
 }
 
 /*Cabeçalho | Header*/
 header{
     background-color: var(--cor1);
     height: 4em;
+    display: flex;
+    align-items: center;
 }
+header h1{
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.5em;
+    margin: 0 1.5em 0 3em;
+}
+header nav a{
+    background-color: #fff;
+    padding: 0.3em 0.7em;
+    border-radius: 1em;
+    margin: 0 0.4em;
+    text-decoration: none;
+    color: var(--cor1);
+    font-weight: bold;
+}
+/*Imagem de capa*/
