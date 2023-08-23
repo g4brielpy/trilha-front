@@ -58,13 +58,13 @@ main p{
 }
 /*galeria*/
 .galeria{
-    background-color: antiquewhite;
     overflow-x: scroll;
     display: flex;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 20px;
 }
 
 .galeria img{
     width: 300px;
     margin: 10px;
+    box-shadow: 10px 10px 10px #0000005d
 }
