@@ -73,5 +73,7 @@ footer{
 }
 footer P{
     margin: 0;
-
+    text-align: center;
+    color: #fff;
+    padding: 0.5rem;
 }
