@@ -40,14 +40,14 @@ header nav a{
 /*Corpo do site | Sinopse*/
 main{
     max-width: 1024px;
-    margin: 2em auto;
-    padding: 1.5em
+    margin: 2em auto 0;
+    padding: 1.5em 1.5em 0
 }
 main h2{
     text-align: center;
     margin: 1.5rem 0;
 }
-main p{
+main p, footer p{
     line-height: 1.8rem;
     text-align: justify;
     margin: 1rem 0;
@@ -62,9 +62,16 @@ main p{
     display: flex;
     margin: 0 auto 20px;
 }
-
 .galeria img{
     width: 300px;
     margin: 10px;
     box-shadow: 10px 10px 10px #0000005d
+}
+/*Rodapé*/
+footer{
+    background-color: var(--cor1);
+}
+footer P{
+    margin: 0;
+
 }
