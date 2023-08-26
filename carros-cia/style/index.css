@@ -1,5 +1,5 @@
 @charset "UFT-8";
 
-img{
+img, iframe{
     width: 100%; /*Temp. somente para facilitar a conf.*/
 }
