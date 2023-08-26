@@ -12,6 +12,9 @@
     box-sizing: border-box;
     font-family: var(--font-1);
 }
+.mt-mb{
+    margin: 2em auto;
+}
 
 /*Header | Cabeçalho*/
 header{
@@ -48,8 +51,9 @@ section h2{
 }
 p{
     text-align: justify;
+    padding: 1em;
 }
-
+/*Ultima auteração 'padding no paragrafo'*/
 /*Conf. IMAGE*/
 img, iframe{
     width: 100%;
