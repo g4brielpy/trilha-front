@@ -1,1 +1,5 @@
 @charset "UFT-8";
+
+img{
+    width: 100%; /*Temp. somente para facilitar a conf.*/
+}
