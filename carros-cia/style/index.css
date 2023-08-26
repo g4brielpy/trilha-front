@@ -35,7 +35,25 @@ header a{
     border-bottom: 2px solid var(--color-destaque);  
 }
 
+/*Main | conf das seções*/
+section{
+    background-color: burlywood;
+    max-width: 1024px;
+    text-align: center;
+    margin: 1em auto;
+}
+section h2{
+    margin: 1em 0;
 
+}
+p{
+    text-align: justify;
+}
+
+/*Conf. IMAGE*/
 img, iframe{
-    width: 100%; /*Temp. somente para facilitar a conf.*/
+    width: 100%;
+}
+section img{
+    max-width: 450px
 }
