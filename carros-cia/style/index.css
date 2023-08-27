@@ -40,7 +40,7 @@ header a{
 
 /*Main | conf das seções*/
 section{
-    max-width: 1024px;
+    max-width: 980px;
     text-align: center;
     margin: 5em auto;
 }
@@ -51,7 +51,7 @@ section h2{
 p{
     text-align: justify;
     padding: 1em;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.5em
 }
 .paragrafo-principal{
