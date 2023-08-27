@@ -61,7 +61,14 @@ p{
 /*Conf. de textos Destaque*/
 section span, section a{
     font-weight: bold;
-    color: var(--color-destaque)
+    color: var(--color-destaque);
+    font-size: 1.25rem
+}
+.paragrafo-destaque p{
+    background-color: var(--color-black);
+    text-align: center;
+    color: var(--color-white);
+    line-height: 1em;
 }
 /*Conf. IMAGE*/
 img, iframe{
