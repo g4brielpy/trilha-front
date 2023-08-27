@@ -51,11 +51,17 @@ section h2{
 p{
     text-align: justify;
     padding: 1em;
-    font-size: 1.1rem
+    font-size: 1.2rem;
+    line-height: 1.5em
 }
 .paragrafo-principal{
     text-align: center;
     font-size: 1.5rem;
+}
+/*Conf. de textos Destaque*/
+section span, section a{
+    font-weight: bold;
+    color: var(--color-destaque)
 }
 /*Conf. IMAGE*/
 img, iframe{
