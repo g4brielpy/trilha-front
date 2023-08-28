@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Teste com a propriedade 'position'">
+    <title>Position</title>
+    <!-- Arquivo css interno -->
+    <style>
+        .fora{
+            background-color: #00000069;
+            height: 50vh;
+            position: relative;
+            text-align: right;
+        }
+
+        .dentro{
+            background-color: darkred;
+            height: 20%;
+            width: 20%;
+            position: absolute;
+            top: calc(50% - 10%);
+            left: calc(50% - 10%)
+        }
+    </style>
+</head>
+<body>
+    <div class="fora">
+        <div class="dentro">
+            <h1>hello</h1>
+        </div>
+    </div>
+</body>
+</html>
