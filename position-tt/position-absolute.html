@@ -11,17 +11,28 @@
             background-color: #00000069;
             color: #fff;
             height: 50vh;
+            min-height: 120px;
             position: relative;
-            text-align: right;
         }
 
         .dentro{
             background-color: darkred;
             height: 20vh;
+            min-height: 60px;
             width: 20vw;
             position: absolute;
-            top: calc(50% - 10vh);
-            left: calc(50% - 10vw)
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .dentro h1{
+            height: 50px;
+            background-color: rgba(255, 228, 196, 0.301);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -90%);
         }
     </style>
 </head>
