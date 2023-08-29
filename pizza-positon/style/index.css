@@ -52,3 +52,8 @@ section a{
     bottom: -23px;
     right: 20px;
 }
+section a:hover{
+    background-color: #ff4b3a;
+    transition: 1s;
+    text-decoration: underline;
+}
