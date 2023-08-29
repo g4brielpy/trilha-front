@@ -16,8 +16,14 @@ section{
     border: 3px solid #ff1700;
     position: relative;
 }
-section h3{
+h1{
+    text-align: center;
+    color: #ff1700;
+    margin: 20px auto;
+}
+section h2{
     margin-bottom: 20px;
+    font-size: 26px;
 }
 section p{
     font-size: 18px
