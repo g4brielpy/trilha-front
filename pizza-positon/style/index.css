@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: rgb(191, 199, 206);
+    max-width: 700px;
+    max-height: 400px;
+    margin: 1em auto;
+    padding: 2em 2em 4em;
+    border: 3px solid #ff1700;
+    position: relative;
+}
