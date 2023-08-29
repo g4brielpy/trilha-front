@@ -8,7 +8,7 @@
 }
 
 section{
-    background-color: rgb(191, 199, 206);
+    background-color: #fff7000c;
     max-width: 700px;
     max-height: 400px;
     margin: 1em auto;
@@ -41,6 +41,6 @@ section a{
     padding: 12px 20px;
     border-radius: 5px;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: -23px;
+    right: 20px;
 }
