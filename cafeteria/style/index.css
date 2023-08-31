@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz@0,9..144;1,9..144&family=Lato:ital,wght@0,400;0,700;1,400&family=Oswald:wght@400;700&display=swap');
+
+:root{
+    --font-titulo: 'Fraunces', serif;
+    --font-destaque: 'Oswald', sans-serif;
+    --font-padrao: 'Lato', sans-serif;
+}
