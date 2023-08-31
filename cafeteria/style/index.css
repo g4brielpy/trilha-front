@@ -6,4 +6,11 @@
     --font-titulo: 'Fraunces', serif;
     --font-destaque: 'Oswald', sans-serif;
     --font-padrao: 'Lato', sans-serif;
+
+    --cor-destaque: #604829;
+    --cor-subdestaque: #c4a47c;
+    --cor-controno: #ACACAC;
+    --cor-paragrafo: #666;
+    --cor-black: #000;
+    --cor-white: #fff;
 }
