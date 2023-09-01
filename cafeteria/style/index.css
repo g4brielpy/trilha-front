@@ -50,19 +50,28 @@ header nav a{
 section{
     position: relative;
     margin: 0 0 3em 0;
+    padding: 0 1em;
 }
 section.banner{
     height: 100vh;
     background: url(../image/parallax-imagem1.png);
 }
+section .titulo{
+    height: 100%;
+    background-color: #acacac49;
+    position: relative;
+}
 section h1{
-    font-family: var(--font-titulo);
-    font-weight: normal;
-    font-size: 5rem;
-    color: var(--cor-white);
     position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    width: 100%;
+    top: 40%;
+    color: var(--cor-white);
+    font-size: 5em
+}
+section p{
+    max-width: 1024px;
+    margin: 1em auto;
     text-align: center;
+    font-family: var(--font-padrao);
+    color: var(--cor-paragrafo);
+    line-height: 2rem;
 }
