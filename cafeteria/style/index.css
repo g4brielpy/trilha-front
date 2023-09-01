@@ -14,3 +14,9 @@
     --cor-black: #000;
     --cor-white: #fff;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
