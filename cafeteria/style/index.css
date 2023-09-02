@@ -49,17 +49,25 @@ header nav a{
 /*Main | seções da página*/
 section{
     position: relative;
-    margin: 0 0 3em 0;
+    margin: 0 0 4em 0;
     padding: 0 1em;
-}
-section.banner{
-    height: 100vh;
-    background: url(../image/parallax-imagem1.png) center center;
-    background-size: cover;
 }
 section.parallax{
     height: 50vh;
-    background-color: #ACACAC;
+    background: #ACACAC  center center;
+    background-size: cover;
+}
+section.banner{
+    height: 100vh;
+    background-image: url(../image/parallax-imagem1.png);
+    /*background: url(../image/parallax-imagem1.png) center center;
+    background-size: cover;*/
+}
+section.s2{
+    background-image: url('../image/parallax-imagem2.jpg');
+}
+section.s3{
+    background-image: url(../image/parallax-imagem3.jpg);
 }
 
 section h1{
@@ -75,8 +83,8 @@ section h2{
     font-family: var(--font-destaque);
     color: var(--cor-subdestaque);
     text-align: center;
-    font-size: 1.5em;
-    text-shadow: 2px 2px 2px #00000036;
+    font-size: 1.4em;
+    margin: 1em auto;
 }
 section h3{
     background-color: var(--cor-destaque);
