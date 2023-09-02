@@ -54,19 +54,20 @@ section{
 }
 section.banner{
     height: 100vh;
-    background: url(../image/parallax-imagem1.png);
-}
-section .titulo{
-    height: 100%;
-    background-color: #acacac49;
-    position: relative;
+    background: url(../image/parallax-imagem1.png) center center;
+    background-size: cover;
 }
 section h1{
-    position: absolute;
-    top: 40%;
     color: var(--cor-white);
-    font-size: 5em
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
 }
+
+
 section p{
     max-width: 1024px;
     margin: 1em auto;
