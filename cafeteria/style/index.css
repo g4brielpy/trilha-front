@@ -54,7 +54,7 @@ section{
 }
 section.parallax{
     height: 50vh;
-    background: #ACACAC  center center;
+    background: #ACACAC fixed center center;
     background-size: cover;
 }
 section.banner{
