@@ -58,13 +58,22 @@ section.banner{
     background-size: cover;
 }
 section h1{
+    height: 100%;
+    font-family: var(--font-titulo);
     color: var(--cor-white);
+    font-weight: normal;
     font-size: 4em;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
     text-align: center;
+}
+section h2{
+    font-family: var(--font-destaque);
+    color: var(--cor-subdestaque);
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 5px #00000048;
 }
 
 
