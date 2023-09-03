@@ -123,12 +123,12 @@ section#contato{
     background-color: #e45757;
     text-align: center;
     height: 370px;
-    width: 900px;
+    max-width: 900px;
     margin: 1em auto;
 }
 #contato .mapa iframe{
     width: 100%;
-    max-width: 1000px;
+    height: 100%;
 }
 
 .box-enderecos{
