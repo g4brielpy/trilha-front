@@ -33,17 +33,17 @@
 header{
     position: relative;
     background: var(--cor-destaque);
-    height: 100px;
+    height: 5em;
 }
 header img[alt="Manhattan | ico"]{
-    width: 100px;
+    width: 5em;
     position: absolute;
     left: 10%
 }
 header nav{
     position: absolute;
     right: 10%;
-    top: 35%;
+    top: 25%;
 }
 header nav a{
     text-decoration: none;
@@ -78,8 +78,9 @@ section.s3{
     background-image: url(../image/parallax-imagem3.jpg);
 }
 section#horarios{
-    height: 85vh;
-    background-image: url(../image/cafeteria.jpg)
+    height: 90vh;
+    background-image: url(../image/cafeteria.jpg);
+
 }
 
 section h1{
@@ -171,11 +172,33 @@ section#contato{
     position: relative;
     top: 20%;
     letter-spacing: 5px;
-    word-spacing: 5px
+    word-spacing: 5px;
 }
-
+/*FALTANDO ESTILIZAR A LISTA*/
 #horarios ul{
     background-color: #ACACAC;
     position: relative;
-    top: 25%;
+    top: 40%;
+    color: var(--cor-white);
+}
+
+/*Rodapé*/
+footer{
+    height: 5em;
+    padding: 1em;
+    background: var(--cor-black);
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: center
+}
+footer p{
+    color: var(--cor-white);
+    font-family: var(--font-padrao);
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-bottom: 0.8em;
+}
+footer span{
+    color: var(--cor-destaque);
+    font-size: 0.85rem;
 }
