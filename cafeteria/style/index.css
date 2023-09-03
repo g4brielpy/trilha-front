@@ -60,8 +60,6 @@ section.parallax{
 section.banner{
     height: 100vh;
     background-image: url(../image/parallax-imagem1.png);
-    /*background: url(../image/parallax-imagem1.png) center center;
-    background-size: cover;*/
 }
 section.s2{
     background-image: url('../image/parallax-imagem2.jpg');
@@ -95,7 +93,8 @@ section h3{
     color: var(--cor-white);
     position: relative;
     top: 40%;
-    max-width: 400px;
+    width: fit-content;
+    padding: 0.5rem 2rem;
     margin: auto;
 }
 section p{
@@ -106,3 +105,4 @@ section p{
     color: var(--cor-paragrafo);
     line-height: 2rem;
 }
+/*Contatos*/
