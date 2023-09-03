@@ -94,6 +94,7 @@ section h1{
 section h2{
     font-family: var(--font-destaque);
     color: var(--cor-subdestaque);
+    letter-spacing: 2px;
     text-align: center;
     font-size: 1.4em;
     margin: 1em auto;
@@ -103,6 +104,7 @@ section h3{
     font-family: var(--font-titulo);
     font-weight: normal;
     font-style: italic;
+    letter-spacing: 2px;;
     text-align: center;
     color: var(--cor-white);
     position: relative;
@@ -135,7 +137,6 @@ section#contato{
 }
 
 #contato .mapa{
-    background-color: #e45757;
     text-align: center;
     height: 370px;
     max-width: 900px;
@@ -165,3 +166,16 @@ section#contato{
 }
 
 /*Horários*/
+#horarios h2{
+    color: var(--cor-white);
+    position: relative;
+    top: 20%;
+    letter-spacing: 5px;
+    word-spacing: 5px
+}
+
+#horarios ul{
+    background-color: #ACACAC;
+    position: relative;
+    top: 25%;
+}
