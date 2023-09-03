@@ -106,3 +106,28 @@ section p{
     line-height: 2rem;
 }
 /*Contatos*/
+section#contato{
+    height: 100vh;
+    background-image: url(../image/parallax-imagem4.png); 
+    padding: 1em;
+}
+#contato h2{
+    background-color: var(--cor-destaque);
+    color: var(--cor-white);
+    max-width: fit-content;
+    padding: 0.2rem 5rem;
+}
+#contato .mapa{
+    background-color: #e45757;
+    text-align: center;
+}
+#contato .mapa iframe{
+    width: 100%;
+    max-width: 1000px;
+}
+
+
+.box-enderecos{
+    background-color: var(--cor-destaque);
+    max-width: 500px
+}
