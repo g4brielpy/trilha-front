@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz@0,9..144;1,9..144&family=Lato:ital,wght@0,400;0,700;1,400&family=Oswald:wght@400;700&display=swap');
 
+/*VARIÁVEIS*/
 :root{
     --font-titulo: 'Fraunces', serif;
     --font-destaque: 'Oswald', sans-serif;
@@ -15,6 +16,7 @@
     --cor-white: #fff;
 }
 
+/*Styles Globais*/
 *{
     margin: 0;
     padding: 0;
@@ -52,6 +54,7 @@ section{
     margin: 0 0 4em 0;
     padding: 0 1em;
 }
+
 section.parallax{
     height: 50vh;
     background: #ACACAC fixed center center;
@@ -124,7 +127,7 @@ section#contato{
     text-align: center;
     height: 370px;
     max-width: 900px;
-    margin: 1em auto;
+    margin: 3em auto 0px;
 }
 #contato .mapa iframe{
     width: 100%;
@@ -136,6 +139,10 @@ section#contato{
     max-width: fit-content;
     margin: auto;
     padding: 0.5em 3em;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 3em;
 }
 .box-enderecos p{
     color: var(--cor-white);
