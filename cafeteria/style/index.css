@@ -108,6 +108,7 @@ section p{
     color: var(--cor-paragrafo);
     line-height: 2rem;
 }
+
 /*Contatos*/
 section#contato{
     height: 100vh;
@@ -136,9 +137,9 @@ section#contato{
 
 .box-enderecos{
     background-color: var(--cor-destaque);
-    max-width: fit-content;
+    max-width: 450px;
     margin: auto;
-    padding: 0.5em 3em;
+    padding: 0.5em 0;
     position: absolute;
     right: 0;
     left: 0;
