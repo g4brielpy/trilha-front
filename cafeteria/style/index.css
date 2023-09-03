@@ -23,6 +23,12 @@
     box-sizing: border-box;
 }
 
+/*Class globais*/
+.mt-0{margin-top: 0;}
+.mr-0{margin-right: 0;}
+.mb-0{margin-bottom: 0;}
+.ml-0{margin-left: 0;}
+
 /*Cabeçalho | header*/
 header{
     position: relative;
@@ -55,6 +61,7 @@ section{
     padding: 0 1em;
 }
 
+/*Seção PARALLAX*/
 section.parallax{
     height: 50vh;
     background: #ACACAC fixed center center;
@@ -65,10 +72,14 @@ section.banner{
     background-image: url(../image/parallax-imagem1.png);
 }
 section.s2{
-    background-image: url('../image/parallax-imagem2.jpg');
+    background-image: url(../image/parallax-imagem2.jpg);
 }
 section.s3{
     background-image: url(../image/parallax-imagem3.jpg);
+}
+section#horarios{
+    height: 85vh;
+    background-image: url(../image/cafeteria.jpg)
 }
 
 section h1{
