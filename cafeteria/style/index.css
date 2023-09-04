@@ -86,6 +86,7 @@ section.s3{
 }
 section#horarios{
     height: 90vh;
+    min-height: 900px;
     background-image: url(../image/cafeteria.jpg);
 
 }
@@ -133,6 +134,7 @@ section p{
 /*Contatos*/
 section#contato{
     height: 100vh;
+    min-height: 900px;
     background-image: url(../image/parallax-imagem4.png); 
     padding: 1em;
 }
