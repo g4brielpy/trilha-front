@@ -181,11 +181,37 @@ section#contato{
 }
 /*FALTANDO ESTILIZAR A LISTA*/
 #horarios ul{
-    background-color: #ACACAC;
+    background-color: #c4a47c1e;
+    max-width: 650px;
+    margin: auto;
     position: relative;
-    top: 40%;
+    top: 30%;
     color: var(--cor-white);
 }
+#horarios li{
+    font-family: var(--font-destaque);
+    margin-bottom: 1em;
+    position: relative;
+}
+#horarios span{
+    color: var(--cor-paragrafo);
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    margin-left: 0px;
+}
+#horarios .barra-lista{
+    width: 50%;
+    height: 1px;
+    background-color: var(--cor-controno);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: calc(50% - 1px);
+}
+
+
 
 /*Rodapé*/
 footer{
