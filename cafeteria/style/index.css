@@ -56,6 +56,10 @@ header nav a{
     margin-right: 1em;
     font-size: 1.2rem;
 }
+header nav a:hover{
+    background-color: #55391875;
+    border-radius: 5px;
+}
 
 /*Main | seções da página*/
 section{
