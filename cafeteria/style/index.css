@@ -181,7 +181,6 @@ section#contato{
 }
 /*FALTANDO ESTILIZAR A LISTA*/
 #horarios ul{
-    background-color: #c4a47c1e;
     max-width: 650px;
     margin: auto;
     position: relative;
@@ -199,6 +198,9 @@ section#contato{
     position: absolute;
     right: 0;
     margin-left: 0px;
+}
+#horarios .item-destaque {
+    color: var(--cor-subdestaque);
 }
 #horarios .barra-lista{
     width: 50%;
