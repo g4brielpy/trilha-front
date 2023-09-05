@@ -35,10 +35,10 @@ header nav a{
 }
 
 /*corpo do site | Seção de IMAGENS*/
-.imagem{ /*Estilos com a class 'imagem' | GLOBAL*/
+.imagem{
     text-align: center;
 }
-.imagem img{  /*Estilo para todas as imagens*/
+.imagem img{
     width: 100%;
 }
 .imagem img[alt="Banner | Imobiliária"]{
@@ -109,11 +109,13 @@ section{
 .destaque p span{
     color: var(--cor3);
 }
+
 /*Lista destaque*/
 .destaque ul{
     width: 150px;
     margin: 10px auto;
 }
+
 /*Área CONTATO*/
 .mapa{
     max-width: 800px;
