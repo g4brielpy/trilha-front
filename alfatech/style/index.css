@@ -1,1 +1,11 @@
 @charset "UTF-8";
+:root{
+    --white: #fff;
+    --white1: #f1f3f7;
+    --white2: #f6f6f6;
+    --zinza: #a8a4a4;
+    --zinza-dark:#233032;
+    --destaque: #2f86d6;
+    --cor-shadow: rgba(47, 134, 214, 1);
+    --font-padrao: 'Poppins', Arial, sans-serif
+}
