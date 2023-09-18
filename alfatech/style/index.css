@@ -17,3 +17,50 @@
     box-sizing: border-box;
     font-family: var(--font-padrao)
 }
+body{background-color: #23303259;}
+
+/*Cabeçalho | Header (alguns estilos para o 'footer')*/
+header.cabecalho{
+    background-color: #fff;
+    margin: auto;
+    padding: 35px 1em
+}
+header.cabecalho div.limite, footer.rodape div.limite{
+    max-width: 1024px;
+    margin: auto;
+    position: relative;
+}
+
+header div.logo-tech, footer.rodape div.logo-tech{
+    position: relative;
+    width: 400px;
+}
+header div.logo-tech h1, footer.rodape div.logo-tech h1{
+    position: absolute;
+    top: 0px;
+    left: 95px;
+}
+header div.logo-tech p, footer.rodape div.logo-tech p{
+    position: absolute;
+    left: 95px;
+    top: 48px;
+    color: var(--destaque);
+    font-weight: 600
+}
+header div.logo-tech .img-logo, footer.rodape div.logo-tech .img-logo{
+    width: 80px;
+}
+
+/*Configuração dos links do menu principal*/
+nav.menu-principal{
+    position: absolute;
+    right: 0.8em;
+    top: 35%;
+}
+nav.menu-principal a{
+    color: var(--zinza-dark);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.12em;
+    margin-left: 20px
+}

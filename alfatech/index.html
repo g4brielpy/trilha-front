@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- CSS apenas para ajusta as imagens -->
     <style>
-        img{
-            width: 100px
+        main img, section img, article img, footer img{
+            width: 90px
         }
         section{
             background-color: lightgray;
@@ -21,18 +21,20 @@
     </style>
 </head>
 <body>
-    <header>
-        <div class="logo-tech">
-            <img src="assets/logo-icone.png" alt="Logo AlfaTech">
-            <h1 class="titulo-principal">AlfaTech</h1>
-            <p class="subtitulo">Soluções em hospedagem</p>
+    <header class="cabecalho">
+        <div class="limite">
+            <div class="logo-tech">
+                <img src="assets/logo-icone.png" alt="Logo AlfaTech" class="img-logo">
+                <h1 class="titulo-principal">AlfaTech</h1>
+                <p class="subtitulo">Soluções em hospedagem</p>
+            </div>
+            <nav class="menu-principal">
+                <a href="#informacoes">INFORMAÇÕES</a>
+                <a href="#planos">PLANOS</a>
+                <a href="tabela.html" rel="next">PREÇOS</a>
+                <a href="#contato">CONTATO</a>
+            </nav>
         </div>
-        <nav class="menu-principal">
-            <a href="#informacoes">INFORMAÇÕES</a>
-            <a href="#planos">PLANOS</a>
-            <a href="tabela.html" rel="next">PREÇOS</a>
-            <a href="#contato">CONTATOS</a>
-        </nav>
     </header>
     <main>
         <section class="secao secao-principal banner">
@@ -41,7 +43,7 @@
             <p>Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.</p>
             <img src="assets/imagem-banner.png" alt="Banner AlfaTech">
         </section>
-        <section class="secao-anuncio">
+        <section class="secao secao-anuncio">
             <h3>Hospede o seu site por apenas R$29 por mês.</h3>
             <p class="subtitulo">Também temos planos gratuitos. Adquira já o seu.</p>
             <a class="link-preco" href="tabela.html" rel="next">Tabela de preço</a>
@@ -126,15 +128,17 @@
             </tbody>
         </table>
     </article>
-    <section class="secao-anuncio">
+    <section class="secao secao-anuncio">
         <h3> Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!</h3>
         <a class="link-preco link-preco-black" href="tabela.html" rel="next">Tabela de preço</a>
     </section>
-    <footer class="roda-pe">
-        <div class="logo-tech">
-            <img src="assets/logo-icone.png" alt="Logo AlfaTech">
-            <h1 class="titulo-principal">AlfaTech</h1>
-            <p class="subtitulo">Soluções em hospedagem</p>
+    <footer class="rodape">
+        <div class="limite">
+            <div class="logo-tech">
+                <img src="assets/logo-icone.png" alt="Logo AlfaTech" class="img-logo">
+                <h1 class="titulo-principal">AlfaTech</h1>
+                <p class="subtitulo">Soluções em hospedagem</p>
+            </div>
         </div>
         <ul class="contato-endereco" id="contato">
             <li>Telefone & Whatsapp: (21) 99999-5555</li>
