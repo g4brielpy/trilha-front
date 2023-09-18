@@ -19,6 +19,7 @@
 }
 body{background-color: #23303259;}
 
+
 /*Cabeçalho | Header (alguns estilos para o 'footer')*/
 header.cabecalho{
     background-color: #fff;
@@ -64,3 +65,7 @@ nav.menu-principal a{
     font-size: 1.12em;
     margin-left: 20px
 }
+
+
+/*Main | section (algumas configurações gerais)*/
+/*começar a estilização de parágrafos(ut. class)*/
