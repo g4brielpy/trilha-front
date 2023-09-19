@@ -17,7 +17,6 @@
     box-sizing: border-box;
     font-family: var(--font-padrao)
 }
-body{background-color: #23303259;}
 
 
 /*Cabeçalho | Header (alguns estilos para o 'footer')*/
@@ -144,4 +143,29 @@ a.link-preco::before{
     position: absolute;
     left: 15px;
     top: 22px;
+}
+
+
+/* Seção Informações (alguns estilos da seção tabela de preço) */
+section.secao-informacoes, article.secao-tabela-preco{
+    background-color: var(--white);
+    max-width: 1024px;
+    margin: auto;
+    padding: 40px;
+}
+.secao-informacoes h2{
+    font-size: 2em;
+    text-align: center;
+}
+h2 span.texto-destaque{
+    color: var(--destaque);
+}
+/*Box's de informações*/
+div.conteiner-info{
+    display: flex;
+}
+div.box-info{
+    background-color: #a8a4a4;
+    margin: 20px 5px;
+    text-align: center;
 }
