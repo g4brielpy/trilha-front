@@ -66,11 +66,16 @@ nav.menu-principal a{
 
 
 /*Main | section (algumas configurações gerais)*/
+main{
+    background-color: var(--destaque);
+}
 section.banner{
     text-align: center;
-    background-color: var(--destaque);
+    max-width: 1024px;
+    margin: auto;
     height: 70vh;
     min-height: 500px;
+    max-width: 1024px;
     padding: 40px;
     display: flex;
     justify-content: center;
