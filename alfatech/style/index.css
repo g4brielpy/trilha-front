@@ -73,16 +73,14 @@ section.banner{
     background-color: var(--destaque);
     height: 70vh;
     min-height: 500px;
-    padding: 100px;
+    padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 div.text-banner{
     max-width: 470px;
-    
     color: var(--white);
-    padding: 10px;
 }
 div.text-banner h2.titulo-banner{
     font-size: 1.7em;
@@ -104,17 +102,22 @@ section.secao-anuncio{
     background-color: var(--zinza-dark);
     color: var(--white);
 }
+section.secao-anuncio.d2{
+    background-color: var(--destaque);
+}
+
 div.largura-max{
     max-width: 1024px;
-    padding: 40px 0;
+    padding: 40px;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 div.largura-text{
     max-width: 600px;
 }
+
 section.secao-anuncio h3{
     font-size: 1.5em
 }
@@ -128,6 +131,10 @@ section.secao-anuncio a.link-preco{
     border-radius: 4px;
     position: relative;
 }
+section.secao-anuncio a.link-preco-black{
+    background-color: var(--zinza-dark);
+}
+/*icone do foguete*/
 section.secao-anuncio a.link-preco::before{
     content: url('../assets/icone-foguete.png');
     position: absolute;
