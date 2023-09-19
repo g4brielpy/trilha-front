@@ -120,7 +120,7 @@ div.largura-text{
 section.secao-anuncio h3{
     font-size: 1.5em
 }
-section.secao-anuncio a.link-preco{
+a.link-preco{
     background-color: var(--destaque);
     color: var(--white);
     text-decoration: none;
@@ -130,11 +130,11 @@ section.secao-anuncio a.link-preco{
     border-radius: 4px;
     position: relative;
 }
-section.secao-anuncio a.link-preco-black{
+a.link-preco-black{
     background-color: var(--zinza-dark);
 }
 /*icone do foguete*/
-section.secao-anuncio a.link-preco::before{
+a.link-preco::before{
     content: url('../assets/icone-foguete.png');
     position: absolute;
     left: 15px;
