@@ -68,4 +68,33 @@ nav.menu-principal a{
 
 
 /*Main | section (algumas configurações gerais)*/
-/*começar a estilização de parágrafos(ut. class)*/
+section.banner{
+    text-align: center;
+    background-color: var(--destaque);
+    height: 70vh;
+    min-height: 500px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.text-banner{
+    max-width: 470px;
+    
+    color: var(--white);
+    padding: 10px;
+}
+div.text-banner h2.titulo-banner{
+    font-size: 1.7em;
+    text-align: left;
+}
+div.text-banner p.paragrafo{
+    margin: 1em 0;
+    text-align: justify;
+}
+
+section.banner img{
+    width: 50%;
+    max-width: 500px;
+    min-width: 200px;
+}
