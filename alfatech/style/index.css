@@ -30,7 +30,7 @@ header.cabecalho{
     max-width: 1024px;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
