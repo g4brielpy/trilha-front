@@ -35,7 +35,7 @@ header.cabecalho{
 }
 
 /*Configuração da LOGO-ALFATECH*/
-.cabecalho div.logo-tech, .rodape div.logo-tech{
+div.logo-tech{
     position: relative;
     width: 400px;
 }
