@@ -147,11 +147,13 @@ a.link-preco::before{
 
 
 /* Seção Informações (alguns estilos da seção tabela de preço) */
-section.secao-informacoes, article.secao-tabela-preco{
-    background-color: var(--white);
+section.secao-informacoes{    
     max-width: 1024px;
     margin: auto;
     padding: 40px;
+}
+.secao-informacoes{
+    background-color: var(--white);
 }
 .secao-informacoes h2{
     font-size: 2em;
@@ -163,15 +165,50 @@ h2 span.texto-destaque{
 /*Box's de informações*/
 div.conteiner-info{
     display: flex;
+    margin-top: 50px
 }
+
 div.box-info{
     margin: 20px 5px;
     text-align: center;
 }
-
 .box-info h3{
     margin: 15px 0;
 }
 .box-info img{
     width: 100px
+}
+
+/*Estilização da Tabela*/
+article.secao-tabela-preco{
+    background-color: var(--white1);
+    min-height: 500px;
+    padding: 40px;
+}
+.secao-tabela-preco h2{
+    font-size: 2em;
+    text-align: center;
+}
+
+table.tabela-infor{
+    border-collapse: collapse;
+    margin: 50px auto 30px;
+    text-align: center;
+    width: 900px;
+    box-shadow: 0px 0px 30px 5px var(--cor-shadow);
+    border-radius: 5px;
+    background-color: var(--white1);
+}
+.overflow{
+    overflow-x: auto;
+    margin: 20px 45px;
+}
+
+.tabela-infor td, .tabela-infor th{
+    padding: 10px;
+    border: solid 2px #a8a4a42f;
+}
+/*Efeito zebrado*/
+.tabela-infor tbody tr:nth-child(2n - 1){
+    background-color: #cac5c52f;
 }
