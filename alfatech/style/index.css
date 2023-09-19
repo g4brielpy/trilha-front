@@ -101,5 +101,36 @@ section.banner img{
 
 /*Section Anúncio | Bottom-preço*/
 section.secao-anuncio{
-    
+    background-color: var(--zinza-dark);
+    color: var(--white);
+}
+div.largura-max{
+    max-width: 1024px;
+    padding: 40px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.largura-text{
+    max-width: 600px;
+}
+section.secao-anuncio h3{
+    font-size: 1.5em
+}
+section.secao-anuncio a.link-preco{
+    background-color: var(--destaque);
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 20px 20px 20px 40px;
+    border-radius: 4px;
+    position: relative;
+}
+section.secao-anuncio a.link-preco::before{
+    content: url('../assets/icone-foguete.png');
+    position: absolute;
+    left: 15px;
+    top: 22px;
 }
