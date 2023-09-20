@@ -169,11 +169,17 @@ div.conteiner-info{
 }
 
 div.box-info{
-    margin: 20px 5px;
+    margin: 20px 10px;
     text-align: center;
+    width: 33%;
 }
 .box-info h3{
     margin: 15px 0;
+    color: var(--zinza-dark);
+}
+.box-info p{
+    font-size: 0.9em;
+    color: var(--zinza-dark);
 }
 .box-info img{
     width: 100px
@@ -189,13 +195,16 @@ article.secao-tabela-preco{
     font-size: 2em;
     text-align: center;
 }
+.secao-tabela-preco img{
+    width: 100px;
+}
 
 table.tabela-infor{
     border-collapse: collapse;
     margin: 50px auto 30px;
     text-align: center;
-    width: 900px;
-    box-shadow: 0px 0px 30px 5px var(--cor-shadow);
+    width: 1024px;
+    box-shadow: 0px 0px 20px 3px var(--cor-shadow);
     border-radius: 5px;
     background-color: var(--white1);
 }
@@ -205,10 +214,10 @@ table.tabela-infor{
 }
 
 .tabela-infor td, .tabela-infor th{
-    padding: 10px;
-    border: solid 2px #a8a4a42f;
+    padding: 15px 10px;
+    border: solid 2px #a8a4a420;
 }
 /*Efeito zebrado*/
 .tabela-infor tbody tr:nth-child(2n - 1){
-    background-color: #cac5c52f;
+    background-color: #a8a4a433;
 }
