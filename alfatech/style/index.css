@@ -23,7 +23,7 @@
 header.cabecalho{
     background-color: #fff;
     margin: auto;
-    padding: 35px 1em
+    padding: 35px 1em;
 }
 .cabecalho div.limite,.rodape div.limite{
     max-width: 1024px;
@@ -36,7 +36,7 @@ header.cabecalho{
 /*Configuração da LOGO-ALFATECH*/
 div.logo-tech{
     position: relative;
-    width: 400px;
+    width: 320px;
 }
 div.logo-tech h1{
     position: absolute;
@@ -233,3 +233,22 @@ table.tabela-infor{
 
 
 /*Footer | rodapé (lista de contatos) */
+footer.rodape{
+    padding: 70px 40px 0px;
+}
+footer div.logo-tech{
+    margin: auto;
+/*Centralizar a logo*/  
+}
+
+div.conteudo-footer{
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 600;
+}
+ul.lista-contato-endereco{
+    list-style-type: none;
+}
+.lista-contato-endereco li, .conteudo-footer p{
+    margin-top: 20px;
+}
