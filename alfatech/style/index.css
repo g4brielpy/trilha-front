@@ -230,3 +230,6 @@ table.tabela-infor{
 .tabela-infor tbody tr:nth-child(2n - 1){
     background-color: var(--white2);
 }
+
+
+/*Footer | rodapé (lista de contatos) */
