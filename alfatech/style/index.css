@@ -234,7 +234,7 @@ table.tabela-infor{
 
 /*Footer | rodapé (lista de contatos) */
 footer.rodape{
-    padding: 70px 40px 0px;
+    
 }
 footer div.logo-tech{
     margin: auto;
@@ -243,7 +243,7 @@ footer div.logo-tech{
 
 div.conteudo-footer{
     text-align: center;
-    margin: 50px 0;
+    margin: 50px 40px;
     font-weight: 600;
 }
 ul.lista-contato-endereco{
@@ -251,4 +251,16 @@ ul.lista-contato-endereco{
 }
 .lista-contato-endereco li, .conteudo-footer p{
     margin-top: 20px;
+}
+
+/*Desenvolvido por Gabriel Iuri*/
+.footer-apresentacao{
+    background-color: var(--white2);
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.footer-apresentacao span{
+    color: var(--destaque);
+    font-size: 1.1em;
 }
