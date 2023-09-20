@@ -11,6 +11,7 @@
     --font-padrao: 'Poppins', Arial, sans-serif
 }
 
+/*Configurações Gerais*/
 *{
     margin: 0;
     padding: 0;
@@ -23,7 +24,7 @@
 header.cabecalho{
     background-color: #fff;
     margin: auto;
-    padding: 35px 1em;
+    padding: 20px 15px;
 }
 .cabecalho div.limite,.rodape div.limite{
     max-width: 1024px;
@@ -73,6 +74,7 @@ section.banner{
     max-width: 1024px;
     margin: auto;
     height: 70vh;
+    max-height: 1024px;
     min-height: 500px;
     max-width: 1024px;
     padding: 40px;
@@ -111,7 +113,7 @@ section.secao-anuncio.d2{
 
 div.largura-max{
     max-width: 1024px;
-    padding: 40px;
+    padding: 31px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -151,7 +153,7 @@ a.link-preco::before{
 section.secao-informacoes{    
     max-width: 1024px;
     margin: auto;
-    padding: 40px;
+    padding: 70px 40px 40px;
 }
 .secao-informacoes{
     background-color: var(--white);
@@ -190,7 +192,7 @@ div.box-info{
 article.secao-tabela-preco{
     background-color: var(--white1);
     min-height: 500px;
-    padding: 40px;
+    padding: 70px 40px 40px;
 }
 .secao-tabela-preco h2{
     font-size: 2em;
@@ -234,7 +236,7 @@ table.tabela-infor{
 
 /*Footer | rodapé (lista de contatos) */
 footer.rodape{
-    
+    padding-top: 70px
 }
 footer div.logo-tech{
     margin: auto;
