@@ -78,7 +78,7 @@ nav.menu-principal{
     background-color: var(--white2);
     color: var(--destaque);
     border-radius: 5px;
-    transition: 0.8s;
+    transition: 1s;
 }
 
 
@@ -105,16 +105,24 @@ div.table-flow{
 }
 .tabela-preco th{
     border: 2px solid var(--white);
-}
-
-.tabela-preco th, td{
-    padding: 15px 25px;
+    padding: 15px 40px;
 }
 
 .tabela-preco tbody td{
     border: 1px solid var(--white1);
     font-weight: 500;
     text-align: center;
+    padding: 15px 25px;
+}
+
+.tabela-preco th p{
+    color: var(--zinza);
+    font-weight: normal;
+    font-size: 0.85em;
+    margin-bottom: 5px;
+}
+.tabela-preco th h3{
+    font-size: 2em;
 }
 
 /*Estilizando a primeira celula da tabela (invisível) */
