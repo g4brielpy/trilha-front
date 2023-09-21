@@ -70,3 +70,37 @@ nav.menu-principal{
     margin-left: 10px;
     padding: 10px;
 }
+
+
+/*Configuraçãp da tabela de preços*/
+table.tabela-preco{
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.tabela-preco th{
+    background-color: var(--white1);
+}
+.tabela-preco tbody th{
+    text-align: left;
+    text-indent: 10px;
+    font-weight: 600;
+}
+.tabela-preco th{
+    border: 2px solid var(--white);
+}
+
+.tabela-preco th, td{
+    padding: 15px 25px;
+}
+
+.tabela-preco tbody td{
+    border: 1px solid var(--white1);
+    font-weight: 500;
+    text-align: center;
+}
+
+/*Estilizando a primeira celula da tabela (invisível) */
+.th-none{
+    visibility: hidden;
+}
