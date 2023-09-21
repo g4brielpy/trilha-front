@@ -71,9 +71,16 @@ nav.menu-principal{
     text-decoration: none;
     font-weight: 500;
     color: var(--white);
-    margin-left: 10px;
-    padding: 10px;
+    margin-left: 20px;
+    padding: 5px;
 }
+.menu-principal a:hover{
+    background-color: var(--white2);
+    color: var(--destaque);
+    border-radius: 5px;
+    transition: 0.8s;
+}
+
 
 
 /*Configuraçãp da tabela de preços*/
