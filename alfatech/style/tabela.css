@@ -28,7 +28,7 @@ header.cabecalho{
 }
 div.position-logo{
     position: absolute;
-    left: 10%;
+    left: 20%;
     top: 20%;
 }
 
@@ -59,7 +59,7 @@ div.logo-tech{
 /*Menu principal | Nav*/
 nav.menu-principal{
     position: absolute;
-    right: 10%;
+    right: 20%;
     top: 50%;
     transform: translateY(-50%);
 }
