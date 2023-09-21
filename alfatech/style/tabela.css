@@ -114,3 +114,45 @@ table.tabela-preco{
     background-color: var(--destaque);
     border-radius: 50%;
 }
+
+
+/*Footer | rodapé*/
+footer.rodape{
+    height: 250px;
+    background-color: var(--destaque);
+    text-align: center;
+    position: relative;
+}
+
+.logo-rodape{
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.paragrafo-direitos{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--white);
+}
+
+div.footer-apresentacao{
+    background-color: var(--white);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+.footer-apresentacao p{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.footer-apresentacao a{
+    color: var(--destaque);
+    font-size: 1.15em;
+    text-decoration: none;
+}
+.footer-apresentacao a:hover{
+    text-decoration: underline;
+}
