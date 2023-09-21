@@ -262,7 +262,11 @@ ul.lista-contato-endereco{
     text-align: center;
     font-weight: 600;
 }
-.footer-apresentacao span{
+.footer-apresentacao a{
     color: var(--destaque);
-    font-size: 1.1em;
+    font-size: 1.15em;
+    text-decoration: none;
+}
+.footer-apresentacao a:hover{
+    text-decoration: underline;
 }
