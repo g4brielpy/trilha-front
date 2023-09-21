@@ -104,3 +104,13 @@ table.tabela-preco{
 .th-none{
     visibility: hidden;
 }
+
+/*Marcador redodo da tabela*/
+.marcador-table{
+    display: block;
+    margin: auto;
+    width: 1em;
+    height: 1em;
+    background-color: var(--destaque);
+    border-radius: 50%;
+}
