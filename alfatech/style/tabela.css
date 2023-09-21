@@ -73,9 +73,15 @@ nav.menu-principal{
 
 
 /*Configuraçãp da tabela de preços*/
+main{
+    padding: 15px;
+}
 table.tabela-preco{
     border-collapse: collapse;
     margin: 20px auto;
+}
+div.table-flow{
+    overflow-x: auto;
 }
 
 .tabela-preco th{
