@@ -19,6 +19,10 @@
     font-family: var(--font-padrao)
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 /*Cabeçalho | Header (alguns estilos para o 'footer')*/
 header.cabecalho{
