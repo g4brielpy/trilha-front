@@ -151,14 +151,18 @@ a.link-preco{
 a.link-preco-black{
     background-color: var(--zinza-dark);
 }
-/*icone do foguete*/
+/*icone do foguete e efeitos*/
 a.link-preco::before{
     content: url('../assets/icone-foguete.png');
     position: absolute;
     left: 15px;
     top: 22px;
 }
-
+a.link-preco:hover{
+    text-decoration: underline;
+    transition: 15s;
+    color: var(--zinza);
+}
 
 /* Seção Informações (alguns estilos da seção tabela de preço) */
 section.secao-informacoes{    
