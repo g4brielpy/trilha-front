@@ -180,10 +180,3 @@ div.footer-apresentacao{
 .footer-apresentacao a:hover{
     text-decoration: underline;
 }
-
-@media screen and (max-width: 1260px){
-	main{
-        background-color: #233032;
-    }
-    /* fazer um menu responsivo */
-}
