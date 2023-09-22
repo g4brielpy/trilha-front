@@ -49,11 +49,11 @@ div.logo-tech h1{
     left: 95px;
 }
 div.logo-tech p{
-    position: absolute;
-    left: 95px;
-    top: 48px;
     color: var(--destaque);
-    font-weight: 600
+    font-weight: 600;
+    position: absolute;
+    top: 48px;
+    left: 95px;
 }
 div.logo-tech .img-logo{
     width: 80px;
@@ -271,7 +271,7 @@ ul.lista-contato-endereco{
 }
 
 /*Desenvolvido por Gabriel Iuri*/
-.footer-apresentacao{
+div.footer-apresentacao{
     background-color: var(--white2);
     padding: 20px;
     text-align: center;
@@ -284,4 +284,30 @@ ul.lista-contato-endereco{
 }
 .footer-apresentacao a:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1260px){
+    nav.menu-principal{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 790px){
+    section.banner{
+        display: flex;
+        flex-direction: column
+    }
+    section.banner img{
+        min-width: 300px;
+    }
+
+    div.conteiner-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    div.box-info{
+        width: 70%;
+    }
 }

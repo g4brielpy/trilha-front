@@ -27,15 +27,16 @@ html {
 /* Cabeçalho | Header */
 header.cabecalho{
     background-color: var(--destaque);
-    height: 150px;
+    padding: 20px 15px;
     position: relative;
 }
-div.position-logo{
-    position: absolute;
-    left: 20%;
-    top: 20%;
+div.limite{
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-
 
 /* Logotipo AlfaTech */
 div.logo-tech{
@@ -44,33 +45,26 @@ div.logo-tech{
 }
 .logo-tech h1{
     position: absolute;
-    left: 90px;
+    top: 0px;
+    left: 95px;
 }
 .logo-tech p{
     color: var(--white);
     font-weight: 500;
     position: absolute;
-    top: 45px;
-    left: 90px;
+    top: 48px;
+    left: 95px;
 }
 .logo-tech img{
     width: 80px;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 /*Menu principal | Nav*/
-nav.menu-principal{
-    position: absolute;
-    right: 20%;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.menu-principal a{
-    text-decoration: none;
-    font-weight: 500;
+nav.menu-principal a{
     color: var(--white);
+    text-decoration: none;
+    font-size: 1.12em;
+    font-weight: 600;
     margin-left: 20px;
     padding: 5px;
 }
@@ -145,8 +139,10 @@ div.table-flow{
 footer.rodape{
     height: 250px;
     background-color: var(--destaque);
-    text-align: center;
     position: relative;
+}
+div.conteudo-footer{
+    text-align: center;
 }
 
 .logo-rodape{
@@ -162,6 +158,7 @@ footer.rodape{
     color: var(--white);
 }
 
+/*Desenvolvido por Gabriel Iuri*/
 div.footer-apresentacao{
     background-color: var(--white);
     position: absolute;
@@ -183,8 +180,13 @@ div.footer-apresentacao{
 }
 
 @media screen and (max-width: 1260px){
-	main{
-        background-color: #233032;
+    nav.menu-principal{
+        display: flex;
+        flex-direction: column;
     }
-    /* fazer um menu responsivo */
+}
+@media screen and (max-width: 650px){
+    footer.rodape{
+        height: 270px;
+    }
 }
