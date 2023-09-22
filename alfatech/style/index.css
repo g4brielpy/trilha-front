@@ -156,7 +156,8 @@ a.link-preco::before{
     content: url('../assets/icone-foguete.png');
     position: absolute;
     left: 15px;
-    top: 22px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 a.link-preco:hover{
     text-decoration: underline;
@@ -292,7 +293,7 @@ div.footer-apresentacao{
         flex-direction: column;
     }
 }
-@media screen and (max-width: 790px){
+@media screen and (max-width: 850px){
     section.banner{
         display: flex;
         flex-direction: column
@@ -308,6 +309,6 @@ div.footer-apresentacao{
         
     }
     div.box-info{
-        width: 70%;
+        width: 60%;
     }
 }
