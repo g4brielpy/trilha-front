@@ -273,9 +273,13 @@ ul.lista-contato-endereco {
 /*Desenvolvido por Gabriel Iuri*/
 div.footer-apresentacao {
   background-color: var(--white2);
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   font-weight: 600;
+}
+.footer-apresentacao p {
+  font-weight: bold;
+  font-size: 1.1em;
 }
 .footer-apresentacao a {
   color: var(--destaque);
