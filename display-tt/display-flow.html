@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aprendendo a usar as propriedades flex-direction e flex-wrap"
+    />
+    <title>Aprendendo a usar display: flex</title>
+
+    <style>
+      .conteiner {
+        background-color: #d3d3d3;
+
+        display: flex;
+        flex-flow: column wrap;
+        /* 
+            flex-direction: column;
+            flex-wrap: wrap;
+            
+            As duas propriedades pondem ser abreviadas
+            usando o 'flex-flow'
+        */
+      }
+      .item {
+        background-color: #deb887a6;
+
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="item item1">
+        <p>Item 1</p>
+      </div>
+      <div class="item item2">
+        <p>Item 2</p>
+      </div>
+      <div class="item item3">
+        <p>Item 3</p>
+      </div>
+    </div>
+  </body>
+</html>
