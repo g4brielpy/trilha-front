@@ -14,13 +14,22 @@
         background-color: #d3d3d3;
 
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: row wrap;
         /* 
             flex-direction: column;
             flex-wrap: wrap;
             
             As duas propriedades pondem ser abreviadas
             usando o 'flex-flow'
+        */
+        justify-content: space-around;
+        /* 
+            flex-start
+            flex-end
+            center
+            space-between
+            space-aroud
+            space-evenly
         */
       }
       .item {
@@ -29,15 +38,13 @@
         width: 150px;
         height: 150px;
         margin: 10px;
-
       }
 
-      .item1{
+      .item1 {
         display: flex;
         flex-flow: column wrap;
         align-items: center; /* Aliamento vertical dos itens */
       }
-      
     </style>
   </head>
   <body>
