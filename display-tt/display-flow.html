@@ -10,11 +10,11 @@
     <title>Aprendendo a usar display: flex</title>
 
     <style>
-      p,
-      a {
-        padding: 0;
+      * {
         margin: 0;
+        padding: 0;
       }
+
       a {
         padding: 2px 10px;
         background-color: #fff;
@@ -23,9 +23,10 @@
         border-radius: 2px;
       }
 
-      .conteiner {
+      div.conteiner {
         background-color: #d3d3d3;
         font-family: Arial, Helvetica, sans-serif;
+        height: 100vh;
 
         display: flex;
         flex-flow: row wrap;
@@ -65,14 +66,23 @@
 
       .item1 {
         justify-content: space-between;
+        /* 
+           sem espaçamento em suas extremidades
+        */
       }
 
       .item2 {
         justify-content: space-around;
+        /* 
+           com espaços de metade do tamanho em cada extremidade.
+        */
       }
 
       .item3 {
         justify-content: space-evenly;
+        /* 
+           com o mesmo espaçamento em suas extremidades
+        */
       }
     </style>
   </head>
