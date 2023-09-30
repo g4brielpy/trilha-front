@@ -10,8 +10,22 @@
     <title>Aprendendo a usar display: flex</title>
 
     <style>
+      p,
+      a {
+        padding: 0;
+        margin: 0;
+      }
+      a {
+        padding: 2px 10px;
+        background-color: #fff;
+        color: #000;
+        text-decoration: none;
+        border-radius: 2px;
+      }
+
       .conteiner {
         background-color: #d3d3d3;
+        font-family: Arial, Helvetica, sans-serif;
 
         display: flex;
         flex-flow: row wrap;
@@ -22,7 +36,7 @@
             As duas propriedades pondem ser abreviadas
             usando o 'flex-flow'
         */
-        
+
         justify-content: space-around;
         /* 
             flex-start
@@ -34,17 +48,31 @@
         */
       }
       .item {
-        background-color: #deb887a6;
+        background-color: #5211114d;
+        border-radius: 2px;
 
         width: 150px;
         height: 150px;
         margin: 10px;
+        padding: 5px 15px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        /*
+           Aliamento vertical dos itens 
+        */
       }
 
       .item1 {
-        display: flex;
-        flex-flow: column wrap;
-        align-items: center; /* Aliamento vertical dos itens */
+        justify-content: space-between;
+      }
+
+      .item2 {
+        justify-content: space-around;
+      }
+
+      .item3 {
+        justify-content: space-evenly;
       }
     </style>
   </head>
@@ -53,17 +81,17 @@
       <div class="item item1">
         <p>Item 1</p>
         <p>Lorem ipsum dolor, sit amet consectetur</p>
-        <button>Veja Mais</button>
+        <a href="#">Veja Mais</a>
       </div>
       <div class="item item2">
         <p>Item 2</p>
         <p>Lorem ipsum dolor, sit amet consectetur</p>
-        <button>Veja Mais</button>
+        <a href="#">Veja Mais</a>
       </div>
       <div class="item item3">
         <p>Item 3</p>
         <p>Lorem ipsum dolor, sit amet consectetur</p>
-        <button>Veja Mais</button>
+        <a href="#">Veja Mais</a>
       </div>
     </div>
   </body>
