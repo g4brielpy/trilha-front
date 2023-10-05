@@ -40,6 +40,8 @@ div.card{
     border-radius: 5px;
     margin: 10px;
 
-    height: 300px;
     width: 280px;
+}
+.card-image img{
+    width: 100%;
 }
