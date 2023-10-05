@@ -50,6 +50,7 @@ div.card {
   width: 100%;
   border-radius: 5px 5px 2px 2px;
 }
+
 .card-infor {
   padding: 20px 10px 10px;
   height: 150px;
@@ -58,7 +59,23 @@ div.card {
   flex-direction: column;
   justify-content: space-between
 }
+
 .preco {
   border-top: 1px solid #ccc;
   padding: 15px 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.icone-carrinho a{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  width: 35px;
+  height: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
