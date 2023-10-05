@@ -32,16 +32,33 @@ div.conteiner {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+
+  gap: 30px;
 }
 
 /* cards */
-div.card{
-    background-color: #fff;
-    border-radius: 5px;
-    margin: 10px;
+div.card {
+  box-shadow: 1px 1px 10px 1px gray;
+  border-radius: 5px;
 
-    width: 280px;
+  width: 315px;
 }
-.card-image img{
-    width: 100%;
+.card-image{
+    height: 200px;
+}
+.card-image img {
+  width: 100%;
+  border-radius: 5px 5px 2px 2px;
+}
+.card-infor {
+  padding: 20px 10px 10px;
+  height: 150px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+.preco {
+  border-top: 1px solid #ccc;
+  padding: 15px 10px;
 }
