@@ -188,33 +188,65 @@ section#contato {
 }
 
 /*Horários*/
+section#horarios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #horarios h2 {
   color: var(--cor-white);
   padding-top: 50px;
   letter-spacing: 5px;
   word-spacing: 5px;
 }
-/*FALTANDO ESTILIZAR A LISTA*/
-#horarios ul {
-  max-width: 840px;
-  margin: auto;
-  color: var(--cor-white);
-}
-#horarios li {
-  font-family: var(--font-destaque);
-}
-#horarios span {
-  color: var(--cor-paragrafo);
-  font-weight: bold;
-}
-#horarios .item-destaque {
-  color: var(--cor-subdestaque);
-}
-#horarios .barra-lista {
-  height: 1px;
-  background-color: var(--cor-controno);
+/*ESTILIZAR A LISTA*/
+.lista-funcionamento {
+    max-width: 840px;
+    width: 100%;
 }
 
+ul.lista-horarios {
+  color: var(--cor-white);
+  margin: auto;
+
+  width: 100%;
+}
+.lista-horarios li {
+  font-family: var(--font-destaque);
+
+  margin-bottom: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.lista-horarios h4 {
+  flex: 0 1 80px;
+}
+
+.lista-horarios span {
+  color: var(--cor-paragrafo);
+  font-weight: bold;
+
+  flex: 0 1 100px;
+  text-align: right;
+}
+.item-destaque {
+  color: var(--cor-subdestaque);
+}
+
+.lista-horarios .barra-lista {
+  background-color: var(--cor-controno);
+  height: 1px;
+
+  flex: 1 1 auto;
+}
+
+/* botão de voltar para o topo */
 .botao-voltar {
   position: absolute;
   right: 3em;
