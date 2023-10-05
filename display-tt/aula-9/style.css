@@ -7,15 +7,24 @@
   font-family: "Poppins", sans-serif;
 }
 
-header{
-    padding: 15px 0;
-    text-align: center;
+header.cabecalho {
+  padding: 15px 0;
+  text-align: center;
 }
-header .title-dest{
-    color:#3cbd87;
-    font-size: 18px
+.cabecalho .title-dest {
+  color: #3cbd87;
+  font-size: 18px;
 }
 
-main{
-    background-color: #f0f0f0;
+main.content-princ {
+  background-color: #f0f0f0;
+  padding: 2em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner {
+  background-color: #4e323200;
 }
