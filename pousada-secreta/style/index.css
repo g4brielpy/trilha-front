@@ -116,6 +116,26 @@ header.cabecalho {
   margin: 50px auto;
 }
 
+/* box com os conteúdos */
+div.conteudo {
+  color: var(--cor-paragrafo);
+  padding: 10px;
+
+  text-align: center;
+
+  margin-bottom: 1em;
+}
+.conteudo h2 {
+  font-weight: 500;
+  font-size: 2em;
+  text-transform: uppercase;
+
+  margin-bottom: 0.8em
+}
+.conteudo p{
+  line-height: 1.8em;
+}
+
 img {
   width: 100%;
   max-width: 400px;
