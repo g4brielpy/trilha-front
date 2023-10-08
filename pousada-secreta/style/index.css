@@ -68,8 +68,9 @@ header.cabecalho {
 
 /* seção | banner */
 #banner {
-  height: 90vh;
+  height: 95vh;
   min-height: 500px;
+  margin-bottom: 4em;
 
   background: url("../assets/img-fundo.jpg") no-repeat center top;
   background-size: cover;
@@ -109,11 +110,7 @@ header.cabecalho {
 /* seções conteúdoo */
 .secao {
   max-width: 1024px;
-  /* 
-    margin de 50px apenas para estilizar
-    deve ser retirada depois
-  */
-  margin: 50px auto;
+  margin: 0 auto 4em;
 }
 
 /* box com os conteúdos */
@@ -227,7 +224,7 @@ footer.rodape {
   max-width: 1024px;
 
   margin: auto;
-  padding: 2em;
+  padding: 2em; 
 
   display: flex;
   flex-wrap: wrap;
