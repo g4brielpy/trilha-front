@@ -143,11 +143,11 @@ div.conteudo {
   justify-content: space-between;
   gap: 20px;
 }
-.card-quartos{
+.card-quartos {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   flex: 1 0 250px;
 }
 
@@ -160,16 +160,15 @@ div.conteudo {
 
   flex: 1 0 auto;
 }
-.link-quarto a{
+.link-quarto a {
   color: var(--cor-paragrafo);
   text-decoration: none;
   font-weight: 600;
 }
 
-.card-quartos img{
+.card-quartos img {
   width: 100%;
 }
-
 
 /* galeria 'sobre a pousada' */
 .galeria-infor {
@@ -218,17 +217,43 @@ div.conteudo {
   border-radius: 4px;
 }
 
-
 /* footer | rodapé */
 footer.rodape {
   background-color: var(--cor-footer-destaque);
   color: var(--white);
 }
 
-.footer-contato{
-  height: 80px;
+.footer-contato {
+  max-width: 1024px;
+
+  margin: auto;
+  padding: 2em;
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
+}
+
+.footer-contato > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  flex: 1 1 200px;
+}
+
+.copy {
+  max-width: 1024px;
+  margin: auto;
+  padding: 1em 0;
+
+  font-weight: bold;
+  text-align: center;
+
+  font-variant: small-caps;
+
+  border-top: 3px solid var(--cor-box-destaque);
 }
