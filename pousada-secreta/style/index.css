@@ -24,7 +24,7 @@
 /* header | Cabeçalho */
 header.cabecalho {
   background-color: var(--white);
-  padding: 15px 0;
+  padding: 15px 1em;
 
   width: 100%;
 
@@ -111,6 +111,7 @@ header.cabecalho {
 .secao {
   max-width: 1024px;
   margin: 0 auto 4em;
+  padding: 0 1em;
 }
 
 /* box com os conteúdos */
