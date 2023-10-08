@@ -225,7 +225,7 @@ footer.rodape {
   max-width: 1024px;
 
   margin: auto;
-  padding: 2em; 
+  padding: 2em 1em; 
 
   display: flex;
   flex-wrap: wrap;
