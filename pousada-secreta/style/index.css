@@ -68,7 +68,6 @@ header.cabecalho {
 
 /* seção | banner */
 #banner {
-  height: 95vh;
   min-height: 500px;
   margin-bottom: 4em;
 
@@ -78,6 +77,12 @@ header.cabecalho {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.banner-home {
+  height: 95vh;
+}
+.banner-quarto {
+  height: 50vh;
 }
 
 .box-destaque {
@@ -225,7 +230,7 @@ footer.rodape {
   max-width: 1024px;
 
   margin: auto;
-  padding: 2em 1em; 
+  padding: 2em 1em;
 
   display: flex;
   flex-wrap: wrap;
