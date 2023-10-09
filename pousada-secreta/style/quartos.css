@@ -23,12 +23,37 @@
 /* listas de informações */
 .secao-lista-quartos {
   color: var(--cor-paragrafo);
+  font-weight: 600;
 
-  margin: 1em auto;
+  margin: 1.5em auto;
 
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   row-gap: 20px;
+}
+
+.secao-lista-quartos h3{
+  border-bottom: 2px solid var(--cor-box-destaque);
+  padding: 0 2em;
+}
+
+.lista-info{
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+
+  list-style-position: inside;
+  list-style-type: circle;
+}
+.lista-info > div {
+  flex: 1 0 auto;
+  text-align: center;
+}
+.lista-info li{
+  margin-bottom: 10px;
 }
