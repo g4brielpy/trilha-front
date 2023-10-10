@@ -21,6 +21,10 @@
   --black: #000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* header | Cabeçalho */
 header.cabecalho {
   background-color: var(--white);
