@@ -110,7 +110,6 @@ section.conteudo p::first-letter {
   font-size: 22px;
 }
 
-
 /* lista de lugares */
 ul.lista-lugares {
   list-style-position: inside;
@@ -125,9 +124,31 @@ ul.lista-lugares {
   gap: 10px;
 }
 .lista-lugares li::before {
-    content: " ";
+  content: " ";
 
-    width: 20px;
-    height: 20px;
-    background-image: url('../assets/seta.png');
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/seta.png");
+}
+
+/* section | galeria de fotos */
+div.conteiner-fotos {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
+}
+
+div.conteiner-fotos img {
+  width: calc((100% / 3) - 8px);
+  height: 100%;
+
+  flex: 1 1 333px;
+}
+
+
+/* footer | rodapé */
+footer {
+  background-color:  #f5c002;
+  padding: 15px 0;
+  text-align: center;
 }
