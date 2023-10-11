@@ -14,7 +14,7 @@
   padding: 1em;
 }
 section.largura-limete {
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 
 /*header | cabeçalho*/
@@ -58,6 +58,7 @@ header nav.links a {
   background-size: cover;
 
   padding: 60px 20px;
+  margin-bottom: 3em;
 
   display: flex;
   flex-direction: column;
@@ -88,4 +89,24 @@ header nav.links a {
   color: #fff;
   text-transform: uppercase;
   font-size: 36px;
+}
+
+
+/* section | conteúdo */
+section.conteudo h3:first-child {
+  font-size: 30px;
+  text-align: center;
+  
+  margin: 5px 0 20px;
+}
+section.conteudo > img:first-of-type {
+    width: 100%;
+}
+
+section.conteudo p {
+    line-height: 1.8em;
+    margin: 1em;
+}
+section.conteudo p::first-letter {
+  font-size: 22px;
 }
