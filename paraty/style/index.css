@@ -1,2 +1,36 @@
 @charset "UTF-8";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/*header | cabeçalho*/
+header {
+    min-height: 100px;
+    max-width: 1024px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+header img.logo {
+    width: 150px;
+}
+
+header nav.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+header nav.links a {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+}
