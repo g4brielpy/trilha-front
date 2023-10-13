@@ -22,13 +22,19 @@ section.largura-max {
 
   margin: auto;
   padding: 1em;
+  text-align: center;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* foto de Neymar Jr */
+/* section banner Neymar jr*/
+.banner .conteiner {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 40px;
+}
 section img[alt="Neymar Jr"] {
   width: 200px;
   height: 200px;
