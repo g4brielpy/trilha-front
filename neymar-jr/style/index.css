@@ -16,7 +16,7 @@
 }
 
 /* Estilização geral para as duas seções */
-section.largura-max {
+.largura-max {
   height: 100vh;
   max-width: 750px;
 
@@ -30,10 +30,17 @@ section.largura-max {
 }
 
 /* section banner Neymar jr*/
+section.banner {
+  background-color: var(--green-grad);
+}
 .banner .conteiner {
   display: flex;
   flex-flow: column wrap;
   gap: 40px;
+}
+
+section h1:first-of-type {
+  color: var(--white);
 }
 section img[alt="Neymar Jr"] {
   width: 200px;
