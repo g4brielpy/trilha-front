@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 :root {
-  --font-1: "Montserrat", sans-serif;
-  --font-2: "Ysabeau Infant", sans-serif;
-
+  --font-1: "Ysabeau Infant", sans-serif;
+  --font-2: "Montserrat", sans-serif;
+  
   --white: #fff;
   --white2: #ffffffcc;
 
