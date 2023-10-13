@@ -1,2 +1,16 @@
 @charset "UTF-8";
 
+:root {
+  --font-1: "Montserrat", sans-serif;
+  --font-2: "Ysabeau Infant", sans-serif;
+
+  --white: #fff;
+  --white2: #ffffffcc;
+
+  --black: #000;
+  --shadow-black-link: #0200006e;
+  --shadow-black-table: #000000cc;
+
+  --yellow-grad: #ffdf00;
+  --green-grad: #009c3b;
+}
