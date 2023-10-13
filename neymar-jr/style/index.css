@@ -3,7 +3,7 @@
 :root {
   --font-1: "Ysabeau Infant", sans-serif;
   --font-2: "Montserrat", sans-serif;
-  
+
   --white: #fff;
   --white2: #ffffffcc;
 
@@ -13,4 +13,29 @@
 
   --yellow-grad: #ffdf00;
   --green-grad: #009c3b;
+}
+
+/* Estilização geral para as duas seções */
+section.largura-max {
+  height: 100vh;
+  max-width: 750px;
+
+  margin: auto;
+  padding: 1em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* foto de Neymar Jr */
+section img[alt="Neymar Jr"] {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+
+  padding: 5px;
+
+  border-radius: 50%;
+  background-image: linear-gradient(90deg, #ffdf00 30%, #009c3b);
 }
