@@ -66,8 +66,6 @@ section img[alt="Neymar Jr"] {
 nav.box_links {
   padding: 10px;
 
-  background-color: #fff;
-
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -79,6 +77,11 @@ nav.box_links {
 .box_links a {
   background-color: var(--shadow-black-link);
   color: var(--white);
+  border-radius: 15px;
+
+  text-decoration: none;
+  font-weight: bold;
+  font-family: var(--font-1);
   
   padding: 10px;
   width: 100%;
