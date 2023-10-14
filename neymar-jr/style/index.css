@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --font-1: "Ysabeau Infant", sans-serif;
   --font-2: "Montserrat", sans-serif;
@@ -18,6 +24,7 @@
 /* Estilização geral para as duas seções */
 .largura-max {
   height: 100vh;
+  width: 100%;
   max-width: 750px;
 
   margin: auto;
@@ -34,6 +41,8 @@ section.banner {
   background-color: var(--green-grad);
 }
 .banner .conteiner {
+  width: 100%;
+
   display: flex;
   flex-flow: column wrap;
   gap: 40px;
@@ -51,4 +60,26 @@ section img[alt="Neymar Jr"] {
 
   border-radius: 50%;
   background-image: linear-gradient(90deg, #ffdf00 30%, #009c3b);
+}
+
+/* conteiner dos links */
+nav.box_links {
+  padding: 10px;
+
+  background-color: #fff;
+
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 20px;
+
+  
+}
+
+.box_links a {
+  background-color: var(--shadow-black-link);
+  color: var(--white);
+  
+  padding: 10px;
+  width: 100%;
 }
