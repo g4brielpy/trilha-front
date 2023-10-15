@@ -38,9 +38,12 @@
 }
 
 /* section banner Neymar jr*/
-section.banner {
+
+/* section.banner {
   background-color: var(--green-grad);
-}
+} 
+Adicionar video de fundo*/
+
 .banner .conteiner {
   width: 100%;
 
@@ -86,6 +89,19 @@ section h1:first-of-type::after {
   position: absolute;
   top: 50%;
 }
+section h1:first-of-type::before {
+  content: " ";
+
+  width: 50px;
+  height: 4px;
+  margin-left: 5px;
+
+  background-image: linear-gradient(90deg, #ffdf00, #009c3b);
+  border-radius: 20px;
+
+  position: absolute;
+  bottom: 0;
+}
 
 /* conteiner dos links */
 nav.box_links {
@@ -107,7 +123,21 @@ nav.box_links {
   width: 100%;
 }
 
-.box_links a {
+.links-redes::before {
+  content: " ";
+
+  width: 35px;
+  height: 35px;
+
+  background: no-repeat center center;
+  background-size: 100%;
+  /* adicionar as imagens de cada elemento separado */
+
+  position: absolute;
+  left: 20px;
+}
+
+.links-redes a {
   color: var(--white);
 
   text-decoration: none;
