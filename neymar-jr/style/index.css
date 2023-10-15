@@ -131,6 +131,7 @@ nav.box_links {
 
   background: no-repeat center center;
   background-size: 100%;
+  object-fit: cover;
   /* adicionar as imagens de cada elemento separado */
 
   position: absolute;
