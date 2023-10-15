@@ -33,6 +33,7 @@
   text-align: center;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -52,9 +53,6 @@ Adicionar video de fundo*/
   gap: 40px;
 }
 
-section h1:first-of-type {
-  color: var(--white);
-}
 section img[alt="Neymar Jr"] {
   width: 200px;
   height: 200px;
@@ -68,7 +66,7 @@ section img[alt="Neymar Jr"] {
 
 /* título Neymar jr */
 section h1:first-of-type {
-  font-family: var(--font-1);
+  color: var(--white);
   font-size: 3em;
 
   text-shadow: 2px 3px 2px #000;
@@ -76,7 +74,11 @@ section h1:first-of-type {
   padding: 0 10px;
   position: relative;
 }
-section h1:first-of-type::after {
+.box_ney h1 {
+  font-family: var(--font-1);
+}
+
+.box_ney h1:first-of-type::after {
   content: " ";
 
   width: 20px;
@@ -89,7 +91,7 @@ section h1:first-of-type::after {
   position: absolute;
   top: 50%;
 }
-section h1:first-of-type::before {
+.box_ney h1:first-of-type::before {
   content: " ";
 
   width: 50px;
@@ -123,21 +125,6 @@ nav.box_links {
   width: 100%;
 }
 
-.links-redes::before {
-  content: " ";
-
-  width: 35px;
-  height: 35px;
-
-  background: no-repeat center center;
-  background-size: 100%;
-  object-fit: cover;
-  /* adicionar as imagens de cada elemento separado */
-
-  position: absolute;
-  left: 20px;
-}
-
 .links-redes a {
   color: var(--white);
 
@@ -146,4 +133,10 @@ nav.box_links {
   font-family: var(--font-1);
 
   width: 100%;
+}
+
+
+/* section Estatíticas */
+.estartisticas {
+  font-family: var(--font-2);
 }
