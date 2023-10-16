@@ -78,6 +78,9 @@ section h1:first-of-type {
 .box_ney h1 {
   font-family: var(--font-1);
 }
+.estartisticas h1 {
+  font-family: var(--font-2);
+}
 
 .box_ney h1:first-of-type::after {
   content: " ";
@@ -138,7 +141,7 @@ nav.box_links {
 
 /* section Estatíticas */
 .estartisticas {
-  font-family: var(--font-2);
+  font-family: var(--font-1);
   background-color: #009c3c6c;
 }
 
@@ -152,6 +155,7 @@ nav.box_links {
   padding: 20px;
   vertical-align: middle;
   text-align: center;
+  font-weight: bold;
 }
 
 .table-statistics tr:nth-child(odd) {
@@ -159,6 +163,6 @@ nav.box_links {
   color: var(--white);
 }
 .table-statistics tr:nth-child(even) {
-  background-color: var(--white2);
+  background-color: var(--white);
   color: var(--black);
 }
