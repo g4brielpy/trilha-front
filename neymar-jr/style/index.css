@@ -40,11 +40,17 @@
 }
 
 /* section banner Neymar jr*/
+section.banner{
+  position: relative;
+}
+section.banner video {
+  position: absolute;
+  z-index: -1;
 
-/* section.banner {
-  background-color: var(--green-grad);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 } 
-Adicionar video de fundo*/
 
 .banner .conteiner {
   width: 100%;
