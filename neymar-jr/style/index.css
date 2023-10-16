@@ -163,7 +163,8 @@ nav.box_links {
 /* section Estatíticas */
 .estartisticas {
   font-family: var(--font-1);
-  background-color: #ffdd0048;
+  background: url('../assets/imagem-de-fundo.jpg') no-repeat fixed top center;
+  background-size: cover;
 }
 
 .table-statistics {
@@ -185,7 +186,7 @@ nav.box_links {
 }
 
 .table-statistics tr:nth-child(odd) {
-  background-color: var(--shadow-black-link);
+  background-color: var(--shadow-black-table);
   color: var(--white);
 }
 .table-statistics tr:nth-child(even) {
