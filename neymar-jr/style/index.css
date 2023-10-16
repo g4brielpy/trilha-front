@@ -36,6 +36,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 40px;
 }
 
 /* section banner Neymar jr*/
@@ -135,8 +136,29 @@ nav.box_links {
   width: 100%;
 }
 
-
 /* section Estatíticas */
 .estartisticas {
   font-family: var(--font-2);
+  background-color: #009c3c6c;
+}
+
+.table-statistics {
+  background-color: #fff;
+  padding: 0.3em;
+}
+
+.table-statistics th,
+.table-statistics td {
+  padding: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table-statistics tr:nth-child(odd) {
+  background-color: var(--shadow-black-table);
+  color: var(--white);
+}
+.table-statistics tr:nth-child(even) {
+  background-color: var(--white2);
+  color: var(--black);
 }
