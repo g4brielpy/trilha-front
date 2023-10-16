@@ -193,3 +193,9 @@ nav.box_links {
   background-color: var(--white);
   color: var(--black);
 }
+.table-statistics img {
+  width: 30px;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 5px;
+}
