@@ -125,10 +125,17 @@ nav.box_links {
   background-color: var(--shadow-black-link);
   border-radius: 15px;
 
-  padding: 10px;
+  padding: 0 10px;
   width: 100%;
-}
 
+  display: flex;
+  align-items: center;
+}
+.links-redes:hover,
+.links-redes a:hover  {
+  background-color: var(--white);
+  color: var(--black);
+}
 .links-redes a {
   color: var(--white);
 
@@ -137,17 +144,30 @@ nav.box_links {
   font-family: var(--font-1);
 
   width: 100%;
+  padding: 10px 0;
+}
+
+.links-redes img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  object-fit: cover;
 }
 
 /* section Estatíticas */
 .estartisticas {
   font-family: var(--font-1);
-  background-color: #009c3c6c;
+  background-color: #ffdd0048;
 }
 
 .table-statistics {
-  background-color: #fff;
   padding: 0.3em;
+}
+
+.table-statistics th {
+  font-size: 1.3em;
+  font-variant: small-caps;
+  text-shadow: 0px 2px 2px #000;
 }
 
 .table-statistics th,
@@ -159,7 +179,7 @@ nav.box_links {
 }
 
 .table-statistics tr:nth-child(odd) {
-  background-color: var(--shadow-black-table);
+  background-color: var(--shadow-black-link);
   color: var(--white);
 }
 .table-statistics tr:nth-child(even) {
