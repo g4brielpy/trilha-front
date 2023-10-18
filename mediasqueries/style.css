@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* INICIO REGRAS CSS COMUNS À TODOS OS DISPOSITIVOS */
+h1.titulo {
+  margin: 20px 0 80px;
+  text-align: center;
+}
+
+section.conteudo-dispositivo {
+  display: none;
+  text-align: center;
+}
+/* FIM REGRAS CSS COMUNS À TODOS OS DISPOSITIVOS */
