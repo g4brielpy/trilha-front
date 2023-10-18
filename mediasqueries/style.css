@@ -11,3 +11,60 @@ section.conteudo-dispositivo {
   text-align: center;
 }
 /* FIM REGRAS CSS COMUNS À TODOS OS DISPOSITIVOS */
+
+/* INICIO REGRAS CSS REFERENTES À PRIMEIRA VERSÃO */
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: #d46a6a;
+    color: #fff;
+  }
+
+  section.conteudo-dispositivo.pequeno {
+    display: block;
+  }
+}
+
+/* INICIO REGRAS CSS REFERENTES À SEGUNDA VERSÃO */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  body {
+    background-color: #758aa8;
+    color: #fff;
+  }
+
+  section.conteudo-dispositivo.medio {
+    display: block;
+  }
+}
+
+/* INICIO REGRAS CSS REFERENTES À TERCEIRA VERSÃO */
+@media only screen and (min-width: 1025px) {
+  body {
+    background-color: #d4ce6a;
+    color: #000;
+  }
+
+  section.conteudo-dispositivo.grande {
+    display: block;
+  }
+}
+
+/* INICIO REGRAS CSS REFERENTES À QUARTA VERSÃO */
+@media print {
+  h1.titulo {
+    margin: 0 0 50px;
+    text-align: left;
+  }
+
+  section.conteudo-dispositivo {
+    text-align: left;
+  }
+
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+
+  section.conteudo-dispositivo.impressao {
+    display: block;
+  }
+}
