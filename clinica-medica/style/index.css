@@ -3,9 +3,9 @@
 :root {
   --font-padrao: 'Source Sans pro', Sans-serif;
 
-  --cor-texto: #0000008c;
-  --cor-destaque: #00cad1;
-  --cor-rodape: #0d6e71;
+  --Ctexto: #0000008c;
+  --Cdestaque: #00cad1;
+  --Ccontraste: #0d6e71;
 }
 
 /* reset | geral */
@@ -18,3 +18,36 @@
 
 
 /* cabeçalho */
+header.cabecalho {
+  background-color: var(--Cdestaque);
+  color: #fff;
+}
+.cabecalho > div {
+  max-width: 1024px;
+  margin: auto;
+  padding: 0.5em;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 110px;
+  object-fit: cover;
+}
+
+nav.menu {
+  display: flex;
+  gap: 1em;
+}
+nav.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 505;
+}
+nav.menu a:hover {
+    color: var(--Ccontraste);
+    transition: 1s;
+}
