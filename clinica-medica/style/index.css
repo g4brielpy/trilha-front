@@ -1,1 +1,20 @@
 @charset "UTF-8";
+
+:root {
+  --font-padrao: 'Source Sans pro', Sans-serif;
+
+  --cor-texto: #0000008c;
+  --cor-destaque: #00cad1;
+  --cor-rodape: #0d6e71;
+}
+
+/* reset | geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-padrao);
+}
+
+
+/* cabeçalho */
