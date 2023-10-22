@@ -51,3 +51,17 @@ nav.menu a:hover {
     color: var(--Ccontraste);
     transition: 1s;
 }
+
+
+/* banner */
+div.banner {
+    color: #fff;
+    background: url('../assets/recepcao.png') no-repeat center center;
+    background-size: cover;
+    
+    height: 50vh;
+    padding: 1em;
+
+    display: flex;
+    align-items: center;
+}
