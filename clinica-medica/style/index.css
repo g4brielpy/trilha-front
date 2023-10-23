@@ -89,7 +89,7 @@ main :where(p, h2, h3, li, figcaption) {
 main :where(h2, h3) {
   margin: 0.8em 0;
 }
-main :where(p, li) {
+main :where(p) {
   margin: 0.5em 0;
 }
 
@@ -101,3 +101,20 @@ div.container-conteudo {
 }
 
 /* lista de descrição da clínica */
+div.container-discricao-sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul.lista-descricao {
+  list-style-position: inside;
+  text-align: left;
+  padding-left: 1em;
+}
+
+p.titulo-discricao {
+  font-size: 1.2em;
+  font-weight: 500;
+
+  margin-bottom: 0.9em;
+}
