@@ -60,7 +60,7 @@ div.banner {
   background: url("../assets/recepcao.png") no-repeat center center;
   background-size: cover;
 
-  height: 50vh;
+  height: 60vh;
   padding: 1em;
 
   display: flex;
@@ -86,10 +86,10 @@ main:first-of-type {
 main :where(p, h2, h3, li, figcaption) {
   color: var(--Ctexto);
 }
-main :where(h2, h3) {
+main :where(h2, h3, figcaption) {
   margin: 0.8em 0;
 }
-main :where(p) {
+main :where(p, li) {
   margin: 0.5em 0;
 }
 
@@ -118,3 +118,35 @@ p.titulo-discricao {
 
   margin-bottom: 0.9em;
 }
+
+/* container cards */
+div.container-cards {
+  width: 100%;
+  max-width: var(--larguraM);
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5em 2em;
+}
+.card {
+  flex: 1 1 250px;
+
+  border-radius: 3px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.199);
+}
+.card img {
+  width: 100%;
+  border-radius: 3px 3px 0 0;
+}
+
+/* link ver horários */
+section a:first-of-type {
+  background-color: var(--Cdestaque);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.7em 1.5em;
+}
+/* Estilizar o footer e adicionar os espaçamento nas section */
