@@ -1,21 +1,22 @@
 @charset "UTF-8";
 
 :root {
-  --font-padrao: 'Source Sans pro', Sans-serif;
+  --font-padrao: "Source Sans pro", Sans-serif;
 
   --Ctexto: #0000008c;
   --Cdestaque: #00cad1;
   --Ccontraste: #0d6e71;
+
+  --larguraM: calc(1024px - 1em);
 }
 
 /* reset | geral */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--font-padrao);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-padrao);
 }
-
 
 /* cabeçalho */
 header.cabecalho {
@@ -23,9 +24,10 @@ header.cabecalho {
   color: #fff;
 }
 .cabecalho > div {
-  max-width: 1024px;
+  width: 100%;
+  max-width: var(--larguraM);
   margin: auto;
-  padding: 0.5em;
+  padding: 1em;
 
   display: flex;
   flex-flow: row wrap;
@@ -34,7 +36,7 @@ header.cabecalho {
 }
 
 .logo img {
-  width: 110px;
+  width: 90px;
   object-fit: cover;
 }
 
@@ -48,20 +50,25 @@ nav.menu a {
   font-weight: 505;
 }
 nav.menu a:hover {
-    color: var(--Ccontraste);
-    transition: 1s;
+  color: var(--Ccontraste);
+  transition: 1s;
 }
-
 
 /* banner */
 div.banner {
-    color: #fff;
-    background: url('../assets/recepcao.png') no-repeat center center;
-    background-size: cover;
-    
-    height: 50vh;
-    padding: 1em;
+  color: #fff;
+  background: url("../assets/recepcao.png") no-repeat center center;
+  background-size: cover;
 
-    display: flex;
-    align-items: center;
+  height: 50vh;
+  padding: 1em;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container-titulo {
+  width: 100%;
+  max-width: var(--larguraM);
+  margin: auto;
 }
