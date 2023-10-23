@@ -87,10 +87,10 @@ main :where(p, h2, h3, li, figcaption) {
   color: var(--Ctexto);
 }
 main :where(h2, h3) {
-  margin-bottom: 0.8em;
+  margin: 0.8em 0;
 }
 main :where(p, li) {
-  margin-bottom: 0.4em;
+  margin: 0.5em 0;
 }
 
 /* box conteudo de cada seção */
@@ -99,3 +99,5 @@ div.container-conteudo {
   max-width: 600px;
   margin: auto;
 }
+
+/* lista de descrição da clínica */
