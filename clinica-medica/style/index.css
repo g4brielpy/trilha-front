@@ -72,3 +72,30 @@ div.banner {
   max-width: var(--larguraM);
   margin: auto;
 }
+
+/* conteúdo principal */
+main:first-of-type {
+  width: 100%;
+  max-width: var(--larguraM);
+
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+}
+
+main :where(p, h2, h3, li, figcaption) {
+  color: var(--Ctexto);
+}
+main :where(h2, h3) {
+  margin-bottom: 0.8em;
+}
+main :where(p, li) {
+  margin-bottom: 0.4em;
+}
+
+/* box conteudo de cada seção */
+div.container-conteudo {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
