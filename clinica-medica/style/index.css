@@ -22,12 +22,15 @@
 header.cabecalho {
   background-color: var(--Cdestaque);
   color: #fff;
+
+  padding: 0 1em;
 }
 .cabecalho > div {
   width: 100%;
   max-width: var(--larguraM);
+  min-height: 60px;
+
   margin: auto;
-  padding: 1em;
 
   display: flex;
   flex-flow: row wrap;
@@ -36,8 +39,9 @@ header.cabecalho {
 }
 
 .logo img {
-  width: 90px;
+  width: 100px;
   object-fit: cover;
+  margin-right: 1em;
 }
 
 nav.menu {
@@ -79,7 +83,6 @@ main:first-of-type {
   max-width: var(--larguraM);
 
   margin: auto;
-  padding: 1em;
   text-align: center;
 }
 
@@ -155,7 +158,7 @@ button.bt-destaque {
   background-color: var(--Cdestaque);
   background-repeat: no-repeat;
 
-  box-shadow: var(--Ccontraste) 0px 4px 0px 0px;
+  box-shadow: var(--Ccontraste) 0px 3px 0px 0px;
   border-radius: 5px;
   box-sizing: border-box;
   border: none;
@@ -189,5 +192,29 @@ button.bt-destaque {
 
 /* Espaçamento das section */
 .mb-secao {
-  margin-bottom: 4em;
+  margin-bottom: 5em;
+}
+
+/* rodape */
+footer.rodape {
+  background-color: var(--Ccontraste);
+  color: #fff;
+
+  width: 100%;
+  min-height: 200px;
+  padding: 1em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.logo-rodape img {
+  width: 150px;
+}
+.box-rodape-contato {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1em;
+  padding-bottom: 2em;
 }
