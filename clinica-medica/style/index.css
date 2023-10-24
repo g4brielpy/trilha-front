@@ -22,7 +22,6 @@
 header.cabecalho {
   background-color: var(--Cdestaque);
   color: #fff;
-
   padding: 0 1em;
 }
 .cabecalho > div {
@@ -41,11 +40,12 @@ header.cabecalho {
 .logo img {
   width: 100px;
   object-fit: cover;
-  margin-right: 1em;
 }
 
 nav.menu {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 1em;
 }
 nav.menu a {
@@ -65,6 +65,8 @@ div.banner {
   background-size: cover;
 
   height: 60vh;
+  min-height: 200px;
+  max-height: 600px;
   padding: 1em;
 
   display: flex;
@@ -127,6 +129,7 @@ div.container-cards {
   width: 100%;
   max-width: var(--larguraM);
   margin: 2em 0 2.5em;
+  padding: 0 1em;
 
   display: flex;
   flex-wrap: wrap;
@@ -217,4 +220,50 @@ footer.rodape {
   flex-flow: column wrap;
   gap: 1em;
   padding-bottom: 2em;
+}
+
+/* Medias Queries | breakpoinsts */
+
+@media screen and (max-width: 1024px) {
+  /* laptop */
+  div.banner {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* tablet */
+  .container-discricao-sobre img[alt="Médico"] {
+    display: none;
+  }
+
+  div.banner {
+    height: 350px;
+  }
+  .container-titulo {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* mobile */
+  .cabecalho > div {
+    flex-direction: column;
+  }
+
+  nav.menu {
+    border-top: 2px solid #0d6e7163;
+
+    width: 100%;
+    padding: 0.8em;
+
+    justify-content: space-around;
+  }
+
+  div.banner {
+    height: 250px;
+  }
+  .container-titulo {
+    font-size: 0.8em;
+  }
 }
