@@ -123,6 +123,7 @@ p.titulo-discricao {
 div.container-cards {
   width: 100%;
   max-width: var(--larguraM);
+  margin: 2em 0 2.5em;
 
   display: flex;
   flex-wrap: wrap;
@@ -131,10 +132,10 @@ div.container-cards {
   gap: 2.5em 2em;
 }
 .card {
-  flex: 1 1 250px;
+  flex: 1 2 250px;
 
-  border-radius: 3px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.199);
+  border-radius: 8px;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 .card img {
   width: 100%;
@@ -142,11 +143,50 @@ div.container-cards {
 }
 
 /* link ver horários */
-section a:first-of-type {
-  background-color: var(--Cdestaque);
+button.bt-destaque a {
   color: #fff;
   text-decoration: none;
-  font-weight: 600;
-  padding: 0.7em 1.5em;
 }
-/* Estilizar o footer e adicionar os espaçamento nas section */
+button.bt-destaque {
+  position: relative;
+  z-index: 1;
+
+  background-color: var(--Cdestaque);
+  background-repeat: no-repeat;
+
+  box-shadow: var(--Ccontraste) 0px 4px 0px 0px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: none;
+
+  width: 165px;
+  height: 49px;
+  padding: 15px;
+
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+.bt-destaque::before {
+  content: "";
+  background-color: var(--Ccontraste);
+
+  width: 0;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  transition: width 700ms ease-in-out;
+  display: inline-block;
+}
+.bt-destaque:hover::before {
+  width: 100%;
+}
+
+/* Espaçamento das section */
+.mb-secao {
+  margin-bottom: 4em;
+}
