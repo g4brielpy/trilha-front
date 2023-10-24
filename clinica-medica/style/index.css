@@ -134,11 +134,11 @@ div.container-cards {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 2.5em 2em;
 }
 .card {
-  flex: 1 2 250px;
+  flex: 1 1 250px;
 
   border-radius: 4px;
 
