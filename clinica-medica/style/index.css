@@ -134,8 +134,9 @@ div.container-cards {
 .card {
   flex: 1 2 250px;
 
-  border-radius: 8px;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  border-radius: 4px;
+
+  box-shadow: 6px 6px 12px #d5d5d5ad, -6px -6px 17px #ebebeb;
 }
 .card img {
   width: 100%;
