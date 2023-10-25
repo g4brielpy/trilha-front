@@ -10,3 +10,20 @@
   --larguraM: calc(1024px - 1em);
 }
 
+/* navegação */
+nav.nav-especialistas {
+  padding: 1.5em 1em 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2em;
+}
+.nav-especialistas a {
+  color: var(--Ctexto);
+  border-bottom: 2px solid var(--Cdestaque);
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1em;
+}
