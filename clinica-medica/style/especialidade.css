@@ -27,3 +27,18 @@ nav.nav-especialistas {
   font-weight: 600;
   font-size: 1.1em;
 }
+
+/* título da página */
+main h2:first-child {
+  margin: 2em auto;
+}
+
+/* container tabela e imagem */
+div.container-flow-table {
+  display: flex;
+}
+
+
+figure img {
+  width: 50%;
+}
