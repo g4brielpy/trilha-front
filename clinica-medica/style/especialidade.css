@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+:root {
+  --font-padrao: "Source Sans pro", Sans-serif;
+
+  --Ctexto: #0000008c;
+  --Cdestaque: #00cad1;
+  --Ccontraste: #0d6e71;
+
+  --larguraM: calc(1024px - 1em);
+}
+
