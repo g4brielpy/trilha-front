@@ -53,7 +53,7 @@ nav.menu a {
   text-decoration: none;
   font-weight: 505;
 }
-nav.menu a:hover {
+:is(nav.menu, nav.nav-especialistas) a:hover {
   color: var(--Ccontraste);
   transition: 1s;
 }
