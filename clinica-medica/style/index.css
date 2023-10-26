@@ -10,6 +10,11 @@
   --larguraM: calc(1024px - 1em);
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 1.5em;
+}
+
 /* reset | geral */
 * {
   margin: 0;
@@ -193,9 +198,15 @@ button.bt-destaque {
   width: 100%;
 }
 
+/* conteiner mapa */
+.container-mapa {
+  padding: 0 1em;
+  margin-top: 2em;
+}
+
 /* Espaçamento das section */
 .mb-secao {
-  margin-bottom: 5em;
+  margin-bottom: 6em;
 }
 
 /* rodape */
@@ -243,6 +254,10 @@ footer.rodape {
   .container-titulo {
     font-size: 0.9em;
   }
+
+  .container-mapa {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -265,5 +280,9 @@ footer.rodape {
   }
   .container-titulo {
     font-size: 0.8em;
+  }
+
+  .container-mapa {
+    display: none;
   }
 }
