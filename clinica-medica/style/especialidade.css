@@ -38,7 +38,8 @@ main h2:first-child {
 /* container tabela e imagem | Flex */
 div.container-flow-table {
   height: 240px;
-  padding: 1em;
+  margin: 2em 0;
+  padding: 0 1em;
 
   display: flex;
   justify-content: center;
@@ -83,4 +84,20 @@ table.tabela {
   object-position: top center;
 }
 
+/* Medias Queries | breakpoinsts */
 
+@media screen and (max-width: 768px) {
+  table.tabela {
+    width: 100%;
+  }
+  .container-flow-table img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  div.container-flow-table {
+    padding: 0;
+
+  }
+}
