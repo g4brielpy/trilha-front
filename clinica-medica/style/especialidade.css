@@ -4,8 +4,10 @@
   --font-padrao: "Source Sans pro", Sans-serif;
 
   --Ctexto: #0000008c;
+  --Ctexto-tabela: #585757;
   --Cdestaque: #00cad1;
   --Ccontraste: #0d6e71;
+  --Csombra: #f1f1f1;
 
   --larguraM: calc(1024px - 1em);
 }
@@ -40,6 +42,29 @@ div.container-flow-table {
   text-align: left;
 }
 
+/* tabela */
+table.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 1em;
+}
+/* efeito zebrado */
+.tabela thead tr:nth-child(odd) {
+  background-color: var(--Cdestaque);
+  color: #fff;
+}
+.tabela tbody tr:nth-child(odd) {
+  background-color: var(--Csombra);
+}
+/* células da tabela */
+.tabela :is(td, th) {
+  padding: 1em;
+}
+.tabela td {
+  color: var(--Ctexto-tabela);
+  font-weight: 500;
+}
+
 /* imagens da tabela */
 .container-flow-table figure {
   width: 50%;
@@ -51,20 +76,4 @@ div.container-flow-table {
   object-fit: cover;
 }
 
-/* tabela */
-table.tabela {
-  width: 100%;
-  border-collapse: collapse;
-  padding: 1em;
-}
-thead tr:nth-child(odd) {
-  background-color: var(--Cdestaque);
-  color: #fff;
-}
 
-.tabela :is(td, th) {
-  padding: 1em;
-}
-
-/* .tabela tbody tr:nth-child(odd) {
-} */
