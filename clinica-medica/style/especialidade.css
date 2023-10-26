@@ -42,6 +42,7 @@ div.container-flow-table {
 
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* tabela */
