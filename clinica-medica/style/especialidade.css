@@ -35,19 +35,25 @@ main h2:first-child {
   margin: 2em auto;
 }
 
-/* container tabela e imagem */
+/* container tabela e imagem | Flex */
 div.container-flow-table {
-  height: 100%;
+  height: 240px;
   padding: 1em;
-  text-align: left;
+
+  display: flex;
+  justify-content: center;
 }
 
 /* tabela */
 table.tabela {
-  width: 100%;
+  width: 70%;
+  height: 100%;
+
   border-collapse: collapse;
   padding: 1em;
+  text-align: left;
 }
+
 /* efeito zebrado */
 .tabela thead tr:nth-child(odd) {
   background-color: var(--Cdestaque);
@@ -56,24 +62,24 @@ table.tabela {
 .tabela tbody tr:nth-child(odd) {
   background-color: var(--Csombra);
 }
+
 /* células da tabela */
-.tabela :is(td, th) {
-  padding: 1em;
+.tabela th {
+  padding: 10px;
 }
 .tabela td {
   color: var(--Ctexto-tabela);
   font-weight: 500;
+  padding: 5px 10px;
 }
 
 /* imagens da tabela */
-.container-flow-table figure {
-  width: 50%;
-  height: 250px;
-}
 .container-flow-table img {
-  width: 100%;
+  width: 30%;
   height: 100%;
+
   object-fit: cover;
+  object-position: top center;
 }
 
 
