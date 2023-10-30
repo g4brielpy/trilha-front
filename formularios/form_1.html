@@ -16,7 +16,7 @@
     <h1>Formulários</h1>
 
     <form action="getform.php" method="get">
-    <!-- form - delimita o formulário -->
+      <!-- form - delimita o formulário -->
 
       <label for="nome">Nome: </label>
       <!-- especifica qual o rótulo do input  -->
@@ -24,11 +24,21 @@
       <!-- define qual o dado que sera enviado para o servidor -->
 
       <label for="sobrenome">Sobrenome:</label>
-      <input type="text" name="sobrenome" id="sobrenome"/>
+      <input
+        type="text"
+        name="sobrenome"
+        id="sobrenome"
+        placeholder="Digite seu sobrenome"
+      />
 
       <label for="email">E-mail:</label>
-      <input type="email" name="email_usuario" id="email" />
-      
+      <input
+        type="email"
+        name="email_usuario"
+        id="email"
+        placeholder="Dirige seu email"
+      />
+
       <button type="submit" id="envia">ENVIA</button>
     </form>
   </body>
