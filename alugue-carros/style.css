@@ -11,7 +11,7 @@
 /* cabeçalho */
 header {
   width: 100%;
-  max-width: 1024px;
+  max-width: 880px;
 
   margin: auto;
   padding: 1em;
@@ -36,7 +36,7 @@ div.banner > div {
   align-items: center;
 }
 .banner div.largura {
-  max-width: 1024px;
+  max-width: 880px;
   width: 100%;
 
   margin: auto;
@@ -51,6 +51,32 @@ div.banner :is(h1, h2) {
 /* conteudo principal */
 main {
   width: 100%;
-  max-width: 1024px;
+  max-width: 880px;
+
+  margin: auto;
   padding: 1em;
+}
+
+/* container conteudo */
+.conteudo h2 {
+  font-size: 1.4em;
+  margin-bottom: 0.7em;
+}
+.conteudo p {
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+
+/* galeria de fotos */
+.galeria {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap:  0.5em 0.2em;
+  margin: 2em auto;
+}
+.galeria img {
+  flex: 1 2 100px;
+  object-fit: cover;
 }
