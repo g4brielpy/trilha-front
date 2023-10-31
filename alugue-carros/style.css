@@ -1,1 +1,56 @@
 @charset "UTF-8";
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* cabeçalho */
+header {
+  width: 100%;
+  max-width: 1024px;
+
+  margin: auto;
+  padding: 1em;
+}
+header .logo {
+  font-weight: bold;
+}
+
+/* banner */
+div.banner {
+  height: 50vh;
+  min-height: 250px;
+  width: 100%;
+
+  background: url('img/capa.jpg') no-repeat top center;
+  background-size: cover;
+}
+div.banner > div {
+  height: 30%;
+  background-color: #00000080;
+  display: flex;
+  align-items: center;
+}
+.banner div.largura {
+  max-width: 1024px;
+  width: 100%;
+
+  margin: auto;
+  padding: 0 1em;
+
+  text-align: right;
+}
+div.banner :is(h1, h2) {
+  color: #fff;
+}
+
+/* conteudo principal */
+main {
+  width: 100%;
+  max-width: 1024px;
+  padding: 1em;
+}
