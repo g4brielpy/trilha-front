@@ -135,7 +135,18 @@ button.form-envia {
   width: 100%;
   margin: 1em 0;
   padding: 1em 2em;
-  
+
   cursor: pointer;
   border: none;
+}
+
+/* rodape */
+footer.rodape {
+  padding: 1.5em;
+  text-align: center;
+}
+footer.rodape span {
+  color: #6e0000;
+  font-weight: bold;
+  
 }
