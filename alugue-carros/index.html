@@ -65,12 +65,13 @@
                 type="text"
                 name="usuario"
                 id="form-nome"
-                placeholder="digite seu nome completo"
+                placeholder="Digite seu nome completo"
+                required
               />
             </div>
             <div class="box-info">
               <label for="form-data">Data de Nascimento</label>
-              <input type="date" name="data" id="form-data" />
+              <input type="date" name="data" id="form-data" required />
             </div>
             <div class="box-info">
               <label for="form-telefone">Telefone</label>
@@ -79,6 +80,7 @@
                 name="telefone"
                 id="form-telefone"
                 placeholder="(xx) x xxxx-xxxx"
+                required
               />
             </div>
           </fieldset>
@@ -91,13 +93,31 @@
                 name="cnh"
                 id="form-nregistro"
                 placeholder="Informe o número da sua CNH"
+                required
               />
             </div>
             <div class="box-info">
               <label for="form-validade">Validade</label>
-              <input type="date" name="validade" id="form-validade">
+              <input type="date" name="validade" id="form-validade" required />
             </div>
           </fieldset>
+          <fieldset>
+            <legend>Carro</legend>
+            <div class="box-info">
+              <label for="form-carros">Modelo do Carro</label>
+              <select name="carro" id="form-carros" required>
+                <option value="" selected>Escolha um carro</option>
+                <optgroup label="Fiat">
+                  <option value="mobi">Mobi</option>
+                  <option value="argo">Argo</option>
+                  <option value="pulse">Pulse</option>
+                  <option value="strada">Strada</option>
+                  <option value="toro">Toro</option>
+                </optgroup>
+              </select>
+            </div>
+          </fieldset>
+          <button class="form-envia" type="submit">Envia Dados</button>
         </form>
       </section>
     </main>

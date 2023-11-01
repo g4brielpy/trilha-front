@@ -54,7 +54,7 @@ main {
   width: 100%;
   max-width: 880px;
 
-  margin: auto;
+  margin: 5em auto 5em;
   padding: 1em;
 }
 
@@ -108,6 +108,7 @@ form.form-car {
 }
 form.form-car fieldset {
   padding: 1em;
+  margin-bottom: 1em;
   display: flex;
   flex-flow: column wrap;
   gap: 1em;
@@ -122,6 +123,19 @@ form.form-car .box-info {
   flex-direction: column;
   gap: 0.4em;
 }
-form.form-car input {
+form.form-car :is(input, select) {
   padding: 0.5em;
+}
+
+/* botão do formulário */
+button.form-envia {
+  color: #fff;
+  background-color: #6e0000;
+
+  width: 100%;
+  margin: 1em 0;
+  padding: 1em 2em;
+  
+  cursor: pointer;
+  border: none;
 }
