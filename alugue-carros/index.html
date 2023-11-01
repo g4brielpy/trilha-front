@@ -44,7 +44,7 @@
 
       <section id="contato">
         <div>
-            <h2>Contato</h2>
+          <h2>Contato</h2>
         </div>
       </section>
 
@@ -56,6 +56,33 @@
             Se tudo estiver correto ligaremos para marcar uma visita sua à loja
           </p>
         </div>
+        <form class="form-car" method="post" action="#">
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div class="box-info">
+              <label for="form-nome">Nome</label>
+              <input
+                type="text"
+                name="nome"
+                id="form-nome"
+                placeholder="digite seu nome completo"
+              />
+            </div>
+            <div class="box-info">
+              <label for="form-data">Data</label>
+              <input type="date" name="data" id="form-data" />
+            </div>
+            <div class="box-info">
+              <label for="form-telefone">Telefone</label>
+              <input
+                type="tel"
+                name="telefone"
+                id="form-telefone"
+                placeholder="(xx) x xxxx-xxxx"
+              />
+            </div>
+          </fieldset>
+        </form>
       </section>
     </main>
   </body>

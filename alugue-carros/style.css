@@ -101,3 +101,27 @@ main {
 #contato div {
   background-color: #6e0000;
 }
+
+/* formullário */
+form.form-car {
+  margin-top: 2em;
+}
+form.form-car fieldset {
+  padding: 1em;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1em;
+}
+form.form-car legend {
+  font-weight: 600;
+  color: #6e0000;
+}
+
+form.form-car .box-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+form.form-car input {
+  padding: 0.5em;
+}
