@@ -5,11 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Agência de Viagens | Venha agendar seua viagem com a gente!"
+      content="Agência de Viagens | Encortre o hotel certo para você!"
     />
     <title>Agência de Viagens</title>
 
     <link rel="stylesheet" href="style/index.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="cabecalho">
+      <img src="assets/image/local-logo.png" alt="Logo Agência de Viagens" />
+      <span class="text-logo">agência de viagens</span>
+    </header>
+
+    <main>
+      <section class="banner">
+        <div class="container-banner">
+          <div class="header-form">
+            <p>Solicite um orçamento</p>
+          </div>
+          <div class="main-form">
+            <h2>Informe seus dados</h2>
+            <form action="#" method="post">
+              <div class="box-input">
+                <label for="nome_usuario">Nome</label>
+                <input
+                  id="nome_usuario"
+                  type="text"
+                  name="nome"
+                  placeholder="Nome Completo"
+                />
+              </div>
+              <div class="box-input">
+                <label for="email_usuario">Email</label>
+                <input
+                  id="email_usuario"
+                  type="email"
+                  name="email"
+                  placeholder="Email para contato"
+                />
+              </div>
+              <div class="box-input">
+                <label for="celular_usuario">Celular</label>
+                <input
+                  id="celular_usuario"
+                  type="tel"
+                  name="celular"
+                  placeholder="(xx) x xxxx-xxxx"
+                />
+              </div>
+              <div class="container-input">
+                <div class="box-input">
+                  <label for="data_ida">Data da ida</label>
+                  <input id="data_ida" type="date" name="data-ida" />
+                </div>
+                <div class="box-input">
+                  <label for="data_volta">Data da volta</label>
+                  <input id="data_volta" type="date" name="data-volta" />
+                </div>
+              </div>
+              <div class="container-input">
+                <div class="box-input">
+                  <label for="origem_viagem">Origem</label>
+                  <input
+                    id="origem_viagem"
+                    type="text"
+                    name="origem"
+                    placeholder="Partindo de"
+                  />
+                </div>
+                <div class="box-input">
+                  <label for="destino_viagem">Destino</label>
+                  <input
+                    id="destino_viagem"
+                    type="text"
+                    name="destino"
+                    placeholder="Indo para"
+                  />
+                </div>
+              </div>
+              <div class="container-input-check">
+                <label>Quarto com cama infantil?</label>
+                <div class="flex-radio">
+                  <div class="box-input input-check">
+                    <input
+                      id="cama_infantil_sim"
+                      type="radio"
+                      name="cama-infantil"
+                      value="sim"
+                    />
+                    <label for="cama_infantil_sim">Sim</label>
+                  </div>
+
+                  <div class="box-input input-check">
+                    <input
+                      id="cama_infantil_nao"
+                      type="radio"
+                      name="cama-infantil"
+                      value="nao"
+                    />
+                    <label for="cama_infantil_nao">Não</label>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
