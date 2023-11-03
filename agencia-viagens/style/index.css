@@ -5,4 +5,45 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Raleway", Helvetica, sans-serif;
+}
+
+/* variavesi */
+:root {
+  --cor_fundo: #80808029;
+  --cor-destaque: #5d15d1;
+}
+
+/* largura e espaçamento global */
+.largura_limitada {
+  width: 100%;
+  max-width: 1024px;
+
+  margin: auto;
+  padding: 0 1em;
+}
+
+/* cabeçalho */
+header.cabecalho {
+  width: 100%;
+  min-height: 56px;
+
+  display: flex;
+  align-items: center;
+}
+header.cabecalho .largura_limitada {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+header.cabecalho img {
+  width: 34px;
+  height: 34px;
+}
+header.cabecalho span.text-logo {
+  color: var(--cor-destaque);
+  font-size: 1.6em;
+  font-variant: small-caps;
+  font-weight: 600;
 }
