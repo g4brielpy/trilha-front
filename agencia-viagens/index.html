@@ -42,6 +42,7 @@
                   type="text"
                   name="nome"
                   placeholder="Nome Completo"
+                  required
                 />
               </div>
               <div class="box-input">
@@ -51,6 +52,7 @@
                   type="email"
                   name="email"
                   placeholder="Email para contato"
+                  required
                 />
               </div>
               <div class="box-input">
@@ -60,16 +62,17 @@
                   type="tel"
                   name="celular"
                   placeholder="(xx) x xxxx-xxxx"
+                  required
                 />
               </div>
               <div class="container-input">
                 <div class="box-input">
                   <label for="data_ida">Data da ida</label>
-                  <input id="data_ida" type="date" name="partida" />
+                  <input id="data_ida" type="date" name="partida" required />
                 </div>
                 <div class="box-input">
                   <label for="data_volta">Data da volta</label>
-                  <input id="data_volta" type="date" name="chegada" />
+                  <input id="data_volta" type="date" name="chegada" required />
                 </div>
               </div>
               <div class="container-input">
@@ -80,6 +83,7 @@
                     type="text"
                     name="origem"
                     placeholder="Partindo de"
+                    required
                   />
                 </div>
                 <div class="box-input">
@@ -89,6 +93,7 @@
                     type="text"
                     name="destino"
                     placeholder="Indo para"
+                    required
                   />
                 </div>
               </div>
@@ -101,6 +106,7 @@
                       type="radio"
                       name="infantil"
                       value="sim"
+                      required
                     />
                     <label for="cama_infantil_sim">Sim</label>
                   </div>
@@ -109,7 +115,7 @@
                     <input
                       id="cama_infantil_nao"
                       type="radio"
-                      name="cama-infantil"
+                      name="infantil"
                       value="nao"
                     />
                     <label for="cama_infantil_nao">Não</label>
