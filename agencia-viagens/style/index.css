@@ -58,7 +58,7 @@ section.banner {
   background-size: cover;
 }
 
-/* formulário */
+/* seção formulário */
 div.header-form {
   background-color: var(--cor-destaque);
   color: #fff;
@@ -79,3 +79,87 @@ div.header-form {
   height: 1.25em;
   transform: rotate(-45deg);
 }
+
+div.main-form {
+  background-color: #fff;
+
+  width: 100%;
+  padding: 1.875em 1.5625em 1.25em;
+}
+.main-form h2:first-child {
+  font-size: 1.375em;
+  margin-bottom: 1.5em;
+}
+
+/* formulário */
+form.form-dados {
+  display: flex;
+  flex-flow: column;
+  row-gap: 1.2em;
+}
+.box-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+.box-input label,
+.label-check {
+  font-size: 1em;
+}
+.box-input input {
+  padding: 1em;
+}
+
+/* data ida e volta | origem e destino */
+div.container-input {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1.2em;
+}
+.container-input div.box-input {
+  flex: 1 1 200px;
+}
+
+/* container input check | infantil e preferencias */
+div.container-input-check {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}
+.flex-check {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1em 3em;
+}
+.flex-check span {
+  display: flex;
+  gap: 1em 3em;
+  flex-wrap: wrap;
+}
+.flex-check div.box-input {
+  flex-direction: row;
+  align-items: center;
+  min-width: 100px;
+}
+.flex-check .box-input input {
+  cursor: pointer;
+}
+
+/* botão formulário */
+button.enviar-form {
+  max-width: 10em;
+  min-height: 2em;
+  margin-top: 1em;
+
+  background-color: var(--cor-destaque);
+  color: #fff;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilizando a área de ofertas (continuar) */
