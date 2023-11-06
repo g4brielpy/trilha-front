@@ -183,6 +183,52 @@ div.secao_galeria {
   gap: 1em;
 }
 
+figure.img-destaque {
+  flex: 1 1 calc(50% - 1em);
+}
+.img-destaque img {
+  width: 100%;
+  height: 100%;
+}
+
+/* box com as imagens */
+div.box-img-flex {
+  flex: 1 1 calc(50% - 1em);
+  background-color: aquamarine;
+
+  display: flex;
+  flex-flow: column wrap;
+  gap: 0.5em;
+}
+
+div.box-img-flex span {
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+div.box-img-flex span figure {
+  flex: 1 1 auto;
+}
+div.box-img-flex span img {
+  width: 240px;
+  height: 100%;
+}
+
+/* sobrepondo a legenda */
+.oferta figure {
+  position: relative;
+}
+.oferta figcaption {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+
+  padding: 0.2em 1em;
+  background-color: #0000007a;
+  color: #fff;
+}
+
 main img {
   width: 200px;
   height: 100px;
