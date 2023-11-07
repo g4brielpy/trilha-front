@@ -177,40 +177,49 @@ div.box-text {
 div.secao_galeria {
   width: 100%;
   height: 100%;
-  max-height: 23.4375em;
+  min-height: 23.4375em;
 
   display: flex;
+  flex-wrap: wrap;
   gap: 1em;
 }
 
+/* box com a imagem 1° */
 figure.img-destaque {
-  flex: 1 1 calc(50% - 1em);
-}
-.img-destaque img {
-  width: 100%;
-  height: 100%;
-}
-
-/* box com as imagens */
-div.box-img-flex {
-  flex: 1 1 calc(50% - 1em);
-  background-color: aquamarine;
+  flex: 1 0 calc(50% - 1em);
 
   display: flex;
-  flex-flow: column wrap;
+}
+.img-destaque img {
+  flex: 1 1 400px;
+  height: 100%;
+
+  object-position: right center;
+}
+
+/* box com as imagens 2° */
+div.box-img-flex {
+  flex: 1 1 calc(50% - 1em);
+
+  display: flex;
+  flex-flow: column nowrap;
   gap: 0.5em;
 }
 
 div.box-img-flex span {
   flex: 1 1 auto;
+
   display: flex;
   flex-flow: row wrap;
+  gap: 0.5em;
 }
 div.box-img-flex span figure {
   flex: 1 1 auto;
+
+  display: flex;
 }
 div.box-img-flex span img {
-  width: 240px;
+  flex: 1 1 100%;
   height: 100%;
 }
 
@@ -229,8 +238,13 @@ div.box-img-flex span img {
   color: #fff;
 }
 
-main img {
+
+/* corpo da página */
+main.container-principal {
+  background-color: var(--cor_fundo);
+}
+main.container-principal img {
   width: 200px;
-  height: 100px;
+  height: 100%;
   object-fit: cover;
 }
