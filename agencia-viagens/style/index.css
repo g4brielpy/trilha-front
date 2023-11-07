@@ -23,7 +23,7 @@
   padding: 0 1em;
 }
 
-/* cabeçalho */
+/* seção cabeçalho */
 header.cabecalho {
   width: 100%;
   min-height: 3.5em;
@@ -298,4 +298,43 @@ div.card-anuncio img {
 }
 .card-anuncio figure > div small {
   font-size: 0.7em;
+}
+
+/* seção rodape */
+footer.rodape {
+  background-color: var(--cor-destaque);
+  padding: 1.5em 0;
+}
+div.container-redes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3em 2em;
+}
+div.contatos {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1em;
+}
+div.box-contato {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.6em;
+}
+
+footer .container-redes h4 {
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 0.6em;
+}
+footer .container-redes :is(span, a) {
+  color: #fff;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+footer .container-redes img {
+  width: 1.2em;
 }
