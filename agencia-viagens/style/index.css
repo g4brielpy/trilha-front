@@ -162,14 +162,9 @@ button.enviar-form {
   align-items: center;
 }
 
-/* corpo da página */
+/* conteúdo da página */
 main.container-principal {
   background-color: var(--cor_fundo);
-}
-main.container-principal img {
-  width: 200px;
-  height: 100%;
-  object-fit: cover;
 }
 
 /* Estilizando a área de ofertas */
@@ -183,55 +178,11 @@ div.box-text {
   gap: 0.625em;
 }
 
-/* seção imagens de oferta */
-div.secao_galeria {
-  width: 100%;
-  height: 100%;
-  min-height: 23.4375em;
-  margin-bottom: 3em;
+/* 1 img flex destaque */
 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  gap: 1em;
-}
 
-/* box com a imagem 1° */
-figure.img-destaque {
-  flex: 1 0 calc(50% - 1em);
-  display: flex;
-}
-.img-destaque img {
-  flex: 1 1 450px;
-  object-position: right center;
-}
+/* 4 img flex box */
 
-/* box com as imagens 2° */
-div.box-img-flex {
-  flex: 1 1 calc(50% - 1em);
-
-  display: flex;
-  flex-flow: column nowrap;
-  gap: 0.5em;
-}
-
-div.box-img-flex span {
-  flex: 1 1 auto;
-
-  display: flex;
-  flex-flow: row wrap;
-  gap: 0.5em;
-}
-div.box-img-flex span figure {
-  flex: 1 1 auto;
-
-  display: flex;
-  align-items: stretch;
-}
-div.box-img-flex span img {
-  flex: 1 1 100%;
-}
 
 /* sobrepondo a legenda */
 .oferta figure {
@@ -245,8 +196,6 @@ div.box-img-flex span img {
 
   position: absolute;
   bottom: 0px;
-  left: 0;
-  right: 0;
 }
 
 /* cards da seção de oferta */
@@ -268,7 +217,7 @@ div.card-anuncio {
   display: flex;
   justify-content: center;
 }
-.card-anuncio figure {
+div.card-anuncio figure {
   flex: 1 1 450px;
 
   display: flex;
