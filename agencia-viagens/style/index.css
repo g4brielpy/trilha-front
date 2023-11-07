@@ -161,6 +161,16 @@ button.enviar-form {
   justify-content: center;
   align-items: center;
 }
+.enviar-form:hover {
+  box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%),
+    0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #5d15d191;
+  transform: translateY(-0.2em);
+  transition: 0.5s;
+}
+.enviar-form:active {
+  box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+  transform: translateY(0em);
+}
 
 /* conteúdo da página */
 main.container-principal {
@@ -180,9 +190,7 @@ div.box-text {
 
 /* 1 img flex destaque */
 
-
 /* 4 img flex box */
-
 
 /* sobrepondo a legenda */
 .oferta figure {
@@ -217,14 +225,14 @@ div.card-anuncio {
   display: flex;
   justify-content: center;
 }
-div.card-anuncio figure {
+.card-anuncio figure {
   flex: 1 1 450px;
 
   display: flex;
   flex-direction: column;
   gap: 0.2em;
 }
-div.card-anuncio img {
+.card-anuncio img {
   flex: 1 1 auto;
 
   width: 100%;
@@ -232,7 +240,7 @@ div.card-anuncio img {
 }
 
 /* texto card */
-.card-anuncio figure > div {
+div.discricao-oferta {
   background-color: #fff;
 
   padding: 0.8em;
@@ -241,12 +249,12 @@ div.card-anuncio img {
   flex-direction: column;
   gap: 0.5em;
 }
-.card-anuncio figure > div figcaption {
-  font-size: 0.75em;
+.discricao-oferta figcaption {
+  font-size: 0.9em;
   font-weight: 600;
 }
-.card-anuncio figure > div small {
-  font-size: 0.7em;
+.discricao-oferta small {
+  font-size: 0.8em;
 }
 
 /* seção rodape */
