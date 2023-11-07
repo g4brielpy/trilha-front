@@ -162,12 +162,22 @@ button.enviar-form {
   align-items: center;
 }
 
+/* corpo da página */
+main.container-principal {
+  background-color: var(--cor_fundo);
+}
+main.container-principal img {
+  width: 200px;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Estilizando a área de ofertas */
 section.ofertas {
-  margin: 3em auto;
+  padding: 3em 1em;
 }
 div.box-text {
-  margin: 1em 0;
+  margin-bottom: 1em;
   display: flex;
   flex-direction: column;
   gap: 0.625em;
@@ -178,6 +188,7 @@ div.secao_galeria {
   width: 100%;
   height: 100%;
   min-height: 23.4375em;
+  margin-bottom: 3em;
 
   display: flex;
   flex-wrap: wrap;
@@ -237,13 +248,51 @@ div.box-img-flex span img {
   color: #fff;
 }
 
-
-/* corpo da página */
-main.container-principal {
-  background-color: var(--cor_fundo);
-}
-main.container-principal img {
-  width: 200px;
+/* cards da seção de oferta */
+div.container_oferta {
+  width: 100%;
   height: 100%;
-  object-fit: cover;
+  min-height: 23.4375em;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1em;
+}
+
+div.card-anuncio {
+  flex: 1 1 calc(50% - 1em);
+  display: flex;
+  justify-content: center;
+}
+.card-anuncio figure {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+
+  background-color: aqua;
+}
+div.card-anuncio img {
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+/* texto card */
+.card-anuncio figure > div {
+  background-color: #fff;
+
+  padding: 0.8em;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.card-anuncio figure > div figcaption {
+  font-size: 0.7em;
+  font-weight: 600;
+}
+.card-anuncio figure > div small {
+  font-size: 0.7em;
 }
