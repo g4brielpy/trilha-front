@@ -338,3 +338,22 @@ footer .container-redes :is(span, a) {
 footer .container-redes img {
   width: 1.2em;
 }
+
+/* MEDIAS QUERIES */
+@media only screen and (max-width: 768px) {
+  button.enviar-form {
+    max-width: 100%;
+    padding: 0.5em;
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  div.container-redes {
+    width: fit-content;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
