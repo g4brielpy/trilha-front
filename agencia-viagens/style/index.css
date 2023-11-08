@@ -178,9 +178,10 @@ main.container-principal {
 }
 
 /* Estilizando a área de ofertas */
-section.ofertas {
+section#ofertas {
   padding: 3em 1em;
 }
+
 div.box-text {
   margin-bottom: 1em;
   display: flex;
@@ -188,9 +189,62 @@ div.box-text {
   gap: 0.625em;
 }
 
+div.secao_galeria {
+  width: 100%;
+  height: 20.3125em;
+  margin-bottom: 2em;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1em;
+}
+.secao_galeria figure {
+  display: flex;
+}
+.secao_galeria img {
+  object-fit: cover;
+}
+
 /* 1 img flex destaque */
+figure.img-destaque {
+  width: calc(50% - 0.5em);
+  height: 20.3125em;
+  color: #00000026;
+}
+figure.img-destaque img {
+  width: 100%;
+  height: 100%;
+}
 
 /* 4 img flex box */
+div.box-img-4 {
+  width: calc(50% - 0.5em);
+  height: 20.3125em;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em
+}
+.box-img-4 span.img-col {
+  width: calc(100% / 2);
+  height: 20.3125em;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5em
+}
+.box-img-4 figure {
+  height: 100%;
+  width: 100%;
+  
+  flex: 1 1 auto;
+  display: flex;
+}
+.box-img-4 img {
+  width: 100%;
+  height: calc((20.3125em / 2) - 0.25em);
+}
 
 /* sobrepondo a legenda */
 .oferta figure {
@@ -200,6 +254,7 @@ div.box-text {
   background-color: #0000007a;
   color: #fff;
 
+  width: 100%;
   padding: 0.2em 1em;
 
   position: absolute;
@@ -236,7 +291,7 @@ div.card-anuncio {
   flex: 1 1 auto;
 
   width: 100%;
-  height: 325px;
+  height: 20.3125em;
 }
 
 /* texto card */
