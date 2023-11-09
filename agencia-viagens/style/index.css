@@ -162,14 +162,11 @@ button.enviar-form {
   align-items: center;
 }
 .enviar-form:hover {
-  box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%),
-    0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #5d15d191;
-  transform: translateY(-0.2em);
+  transform: scale(1.05);
   transition: 0.5s;
 }
 .enviar-form:active {
-  box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
-  transform: translateY(0em);
+  transform: translateY(0.1em);
 }
 
 /* conteúdo da página */
@@ -354,7 +351,7 @@ footer .container-redes img {
 /* MEDIAS QUERIES */
 @media only screen and (max-width: 768px) {
   /* TABLET */
-  
+
   /* botão submit do formulário */
   button.enviar-form {
     max-width: 100%;
