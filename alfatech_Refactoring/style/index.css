@@ -24,6 +24,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Largura limite geral */
 .larg-max {
   width: 100%;
   max-width: calc(1024px - 1em);
@@ -88,4 +89,35 @@ nav.menu_principal {
 .menu_principal a:hover {
   color: var(--destaque);
   transition: 1s;
+}
+
+/* section banner */
+section#banner {
+  background-color: var(--destaque);
+  color: var(--white);
+  min-height: 600px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.secao_banner {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+div.conteudo_banner {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.conteudo_banner h2 {
+  font-size: 2em;
+}
+
+figure.imagem_banner img {
+  max-width: 31.25em;
 }
