@@ -85,3 +85,7 @@ nav.menu_principal {
   text-decoration: none;
   text-transform: uppercase;
 }
+.menu_principal a:hover {
+  color: var(--destaque);
+  transition: 1s;
+}
