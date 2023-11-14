@@ -1,1 +1,59 @@
 @charset "UTF-8";
+
+/* VARIAVEIS */
+:root {
+  --white: #fff;
+  --white1: #f1f3f7;
+  --white2: #f6f6f6;
+  --black: #000;
+  --zinza: #a8a4a4;
+  --zinza-dark: #233032;
+  --destaque: #2f86d6;
+  --cor-shadow: rgb(47, 133, 214, 1);
+  --font-padrao: "Poppins", Arial, sans-serif;
+}
+
+/*Configurações Gerais*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-padrao);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header | Cabeçalho */
+header.cabecalho {
+  background-color: #fff;
+}
+
+div.logo {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5em;
+
+  display: flex;
+  gap: 1em;
+}
+.logo img[alt="Logo | tech"] {
+  width: 5em;
+  height: 5em;
+}
+.logo div.txt-logo {
+  display: flex;
+  flex-flow: column;
+  gap: 0.1em;
+}
+.logo span.titulo {
+  color: var(--black);
+  font-size: 2em;
+  font-weight: 600;
+  text-align: left;
+}
+.logo span.subtitulo {
+  color: var(--destaque);
+  font-weight: 600;
+  text-align: left;
+}
