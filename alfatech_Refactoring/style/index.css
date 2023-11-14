@@ -121,3 +121,54 @@ div.conteudo_banner {
 figure.imagem_banner img {
   max-width: 31.25em;
 }
+
+/* tarja de anúcio */
+div.anuncio_preco {
+  width: 100%;
+  min-height: 6.875em;
+  padding: 1em 0;
+  background-color: #a8a4a4;
+  display: flex;
+  align-items: center;
+}
+/* adicionar as cores direfentes nas seção anuncios */
+
+.anuncio_preco div.anuncio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+.anuncio_preco :is(h3, p) {
+  color: var(--white);
+  padding: 0.2em 0;
+}
+
+.anuncio_preco a {
+  color: var(--white);
+  border-radius: 0.2em;
+  background-color: #2f86d6;
+
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 1em 1em 1em 2em;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+}
+.anuncio_preco a::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+
+  background: url("../assets/icone-foguete.png") no-repeat center center;
+  object-fit: cover;
+
+  position: absolute;
+  left: 0.5em;
+  top: 50%;
+  transform: translateY(-50%);
+}
