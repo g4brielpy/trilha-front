@@ -24,22 +24,37 @@ html {
   scroll-behavior: smooth;
 }
 
+.larg-max {
+  width: 100%;
+  max-width: calc(1024px - 1em);
+
+  margin: auto;
+  padding: 0 1em;
+}
+
 /* Header | Cabeçalho */
 header.cabecalho {
-  background-color: #fff;
+  width: 100%;
+  min-height: 7.25em;
+  padding: 0.5em 1em;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
 }
 
 div.logo {
   width: fit-content;
   height: fit-content;
-  padding: 0.5em;
 
   display: flex;
   gap: 1em;
 }
 .logo img[alt="Logo | tech"] {
-  width: 5em;
-  height: 5em;
+  width: 4.5em;
+  height: 4.5em;
 }
 .logo div.txt-logo {
   display: flex;
@@ -48,7 +63,7 @@ div.logo {
 }
 .logo span.titulo {
   color: var(--black);
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: 600;
   text-align: left;
 }
@@ -56,4 +71,17 @@ div.logo {
   color: var(--destaque);
   font-weight: 600;
   text-align: left;
+}
+
+nav.menu_principal {
+  display: flex;
+  gap: 1em;
+}
+.menu_principal a {
+  color: var(--zinza-dark);
+  font-size: 1.04em;
+  font-weight: 600;
+
+  text-decoration: none;
+  text-transform: uppercase;
 }
