@@ -183,3 +183,46 @@ div.anuncio_preco-claro {
   top: 50%;
   transform: translateY(-50%);
 }
+
+/* seção cards infor */
+section#info {
+  padding: 5em 1em;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 3em;
+}
+.box_titulo h2 {
+  text-align: center;
+}
+
+/* container dos cars */
+div.container_cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+/* cards */
+div.card {
+  border-radius: 5px;
+  box-shadow: 6px 6px 10px #d3d3d393, -6px -6px 10px #edededad;
+  
+  padding: 1em;
+  text-align: center;
+
+  flex: 1 1 18.125em;
+
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1.2em;
+}
+
+.card img {
+  width: 6.25em;
+}
+.card div.text-card {
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 0.3em;
+}
