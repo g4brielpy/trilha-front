@@ -127,11 +127,23 @@ div.anuncio_preco {
   width: 100%;
   min-height: 6.875em;
   padding: 1em 0;
-  background-color: #a8a4a4;
   display: flex;
   align-items: center;
 }
-/* adicionar as cores direfentes nas seção anuncios */
+
+div.anuncio_preco-escuro {
+  background-color: var(--zinza-dark);
+}
+div.anuncio_preco-claro {
+  background-color: var(--destaque);
+}
+
+.anuncio_preco-escuro a {
+  background-color: var(--destaque);
+}
+.anuncio_preco-claro a {
+  background-color: var(--zinza-dark);
+}
 
 .anuncio_preco div.anuncio {
   display: flex;
@@ -149,7 +161,6 @@ div.anuncio_preco {
 .anuncio_preco a {
   color: var(--white);
   border-radius: 0.2em;
-  background-color: #2f86d6;
 
   font-size: 1.1em;
   font-weight: 600;
