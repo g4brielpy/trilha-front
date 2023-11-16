@@ -208,7 +208,7 @@ div.container_cards {
 /* cards */
 div.card {
   border-radius: 5px;
-  box-shadow: 6px 6px 10px #d3d3d330, -6px -6px 10px #ededed30;
+  box-shadow: 6px 6px 10px #d3d3d320, -6px -6px 10px #ededed30;
 
   padding: 1em;
   text-align: center;
@@ -250,7 +250,7 @@ table.tabela_planos {
 }
 /* cabeçalho */
 thead.cabecalho_table th {
-  background-color: #fff;
+  background-color: var(--white);
   width: 18.75em;
   height: 9.375em;
 
