@@ -205,8 +205,8 @@ div.container_cards {
 /* cards */
 div.card {
   border-radius: 5px;
-  box-shadow: 6px 6px 10px #d3d3d393, -6px -6px 10px #edededad;
-  
+  box-shadow: 6px 6px 10px #d3d3d330, -6px -6px 10px #ededed30;
+
   padding: 1em;
   text-align: center;
 
