@@ -244,15 +244,19 @@ div.secao_tabela {
 /* tabela */
 table.tabela_planos {
   text-align: center;
+  box-shadow:  15px 15px 30px #2f85d634,
+  -15px -15px 30px #2f85d629;
+  border-radius: 2px;
 }
-.tabela_planos thead th {
+/* cabeçalho */
+thead.cabecalho_table th {
   background-color: #fff;
   width: 18.75em;
   height: 9.375em;
 
   padding: 2em 1em;
 }
-.tabela_planos thead div.box-itens-table {
+thead.cabecalho_table div.box-itens-table {
   margin-top: 1em;
 
   display: flex;
@@ -266,4 +270,18 @@ table.tabela_planos {
 .box-itens-table small {
   color: var(--zinza);
   font-weight: 500;
+}
+/* corpo */
+tbody.copo_table td {
+  color: var(--zinza-dark);
+  font-weight: 500;
+
+  padding: 0.9em 0.5em;
+}
+/* efeito zebrado */
+tbody.copo_table tr:nth-child(odd) {
+  background-color: var(--white2);
+}
+tbody.copo_table tr:nth-child(even) {
+  background-color: var(--white);
 }
