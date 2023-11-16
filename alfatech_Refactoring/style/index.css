@@ -240,6 +240,10 @@ div.secao_tabela {
   flex-flow: column wrap;
   gap: 3em;
 }
+div.flow_table {
+  width: 100%;
+  overflow: auto;
+}
 
 /* tabela */
 table.tabela_planos {
