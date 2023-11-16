@@ -241,16 +241,19 @@ div.secao_tabela {
   gap: 3em;
 }
 div.flow_table {
+  box-shadow: 15px 15px 30px #2f85d634, -15px -15px 30px #2f85d629;
+
   width: 100%;
   overflow: auto;
+  padding-bottom: 0.2em;
 }
 
 /* tabela */
 table.tabela_planos {
-  text-align: center;
-  box-shadow:  15px 15px 30px #2f85d634,
-  -15px -15px 30px #2f85d629;
   border-radius: 2px;
+  min-width: 51.25em;
+
+  text-align: center;
 }
 /* cabeçalho */
 thead.cabecalho_table th {
