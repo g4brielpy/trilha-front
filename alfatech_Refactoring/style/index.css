@@ -159,7 +159,7 @@ div.anuncio_preco-claro {
 }
 
 .anuncio_preco a {
-  color: var(--white);
+  color: var(--white2);
   border-radius: 0.2em;
 
   font-size: 1.1em;
@@ -169,6 +169,35 @@ div.anuncio_preco-claro {
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
+
+  position: relative;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+.anuncio_preco a:hover,
+.anuncio_preco a:focus {
+  color: var(--white);
+}
+.anuncio_preco a:focus:after,
+.anuncio_preco a:hover:after {
+  width: 100%;
+  left: 0%;
+}
+.anuncio_preco a:after {
+  content: "";
+
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+
+  width: 0%;
+  height: 4px;
+  background-color: #fff;
+
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
 }
 .anuncio_preco a::before {
   content: "";
@@ -296,7 +325,6 @@ tbody.copo_table tr:nth-child(even) {
 /* footer rodape */
 footer.rodape {
   padding: 5em 0 0;
-
 
   display: flex;
   flex-direction: column;
