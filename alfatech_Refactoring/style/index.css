@@ -292,3 +292,8 @@ tbody.copo_table tr:nth-child(odd) {
 tbody.copo_table tr:nth-child(even) {
   background-color: var(--white);
 }
+
+/* footer rodape */
+footer.rodape {
+  padding: 5em 0 0;
+}
