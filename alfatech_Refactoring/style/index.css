@@ -194,6 +194,9 @@ section#info {
 .box_titulo h2 {
   text-align: center;
 }
+span.txt-destaque {
+  color: var(--destaque);
+}
 
 /* container dos cars */
 div.container_cards {
@@ -225,4 +228,42 @@ div.card {
   display: flex;
   flex-flow: column wrap;
   gap: 0.3em;
+}
+
+/* section tabela de planos */
+section#plano {
+  background-color: var(--white1);
+  padding: 5em 0em;
+}
+div.secao_tabela {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 3em;
+}
+
+/* tabela */
+table.tabela_planos {
+  text-align: center;
+}
+.tabela_planos thead th {
+  background-color: #fff;
+  width: 18.75em;
+  height: 9.375em;
+
+  padding: 2em 1em;
+}
+.tabela_planos thead div.box-itens-table {
+  margin-top: 1em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+}
+.box-itens-table img {
+  width: 6.25em;
+}
+.box-itens-table small {
+  color: var(--zinza);
+  font-weight: 500;
 }
