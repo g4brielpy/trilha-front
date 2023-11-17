@@ -36,7 +36,7 @@ html {
 /* Header | Cabeçalho */
 header.cabecalho {
   width: 100%;
-  min-height: 7.25em;
+  min-height: 5em;
   padding: 0.5em 1em;
 
   display: flex;
@@ -54,24 +54,28 @@ div.logo {
   gap: 1em;
 }
 .logo img[alt="Logo | tech"] {
-  width: 4.5em;
-  height: 4.5em;
+  width: 4em;
+  height: 4em;
 }
 .logo div.txt-logo {
   display: flex;
   flex-flow: column;
-  gap: 0.1em;
+  justify-content: center;
+  gap: 0.4em;
 }
 .logo span.titulo {
   color: var(--black);
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: 600;
   text-align: left;
+  line-height: 0.95em;
 }
 .logo span.subtitulo {
   color: var(--destaque);
+  font-size: 0.9em;
   font-weight: 600;
   text-align: left;
+  line-height: 1em;
 }
 
 nav.menu_principal {
@@ -117,6 +121,10 @@ div.conteudo_banner {
 .conteudo_banner h2 {
   font-size: 2em;
 }
+.conteudo_banner span {
+  font-size: 0.9em;
+  color: var(--white);
+}
 
 figure.imagem_banner img {
   max-width: 31.25em;
@@ -125,7 +133,7 @@ figure.imagem_banner img {
 /* tarja de anúcio */
 div.anuncio_preco {
   width: 100%;
-  min-height: 6.875em;
+  
   padding: 1em 0;
   display: flex;
   align-items: center;
@@ -137,7 +145,6 @@ div.anuncio_preco-escuro {
 div.anuncio_preco-claro {
   background-color: var(--destaque);
 }
-
 .anuncio_preco-escuro a {
   background-color: var(--destaque);
 }
@@ -175,6 +182,7 @@ div.anuncio_preco-claro {
   transition-duration: 400ms;
   transition-property: color;
 }
+/* efeito hover */
 .anuncio_preco a:hover,
 .anuncio_preco a:focus {
   color: var(--white);
@@ -199,6 +207,7 @@ div.anuncio_preco-claro {
   transition-duration: 400ms;
   transition-property: width, left;
 }
+/* posicionamento do nave nos links */
 .anuncio_preco a::before {
   content: "";
   width: 20px;
@@ -249,6 +258,15 @@ div.card {
   gap: 1.2em;
 }
 
+.card h3 {
+  color: var(--zinza-dark);
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.card p {
+  color: var(--zinza-dark);
+  font-size: 0.95em;
+}
 .card img {
   width: 6.25em;
 }
