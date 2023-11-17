@@ -127,13 +127,13 @@ div.conteudo_banner {
 }
 
 figure.imagem_banner img {
-  max-width: 31.25em;
+  width: 31.25em;
 }
 
 /* tarja de anúcio */
 div.anuncio_preco {
   width: 100%;
-  
+
   padding: 1em 0;
   display: flex;
   align-items: center;
@@ -391,4 +391,53 @@ footer.rodape {
 }
 a.git-gabriel:hover {
   text-decoration: underline;
+}
+
+/* MEDIAS QUERIES */
+@media screen and (max-width: 900px) {
+  /* tablet */
+  div.secao_banner {
+    flex-direction: column;
+  }
+  figure.imagem_banner img {
+    width: 18.75em;
+  }
+}
+@media screen and (max-width: 748px) {
+  header.cabecalho {
+    padding-bottom: 1em;
+    flex-direction: column;
+  }
+  nav.menu_principal {
+    border-top: 1px solid #2f85d64f;
+
+    width: 80%;
+    padding-top: 0.6em;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 720px) {
+  div.anuncio_preco {
+    padding-bottom: 3em;
+  }
+  .anuncio_preco div.anuncio {
+    flex-direction: column;
+  }
+  div.box_anuncio_button {
+    margin-top: 1.2em;
+  }
+
+
+}
+@media screen and (max-width: 535px) {
+  nav.menu_principal {
+    width: fit-content;
+    justify-content: center;
+  }
+
+  figure.imagem_banner img {
+    display: none;
+  }
 }
