@@ -1,83 +1,85 @@
 @charset "UFT-8";
 /*Conf GERAL*/
-:root{
-    --font-1: Tahoma, Verdana, 'Geneva', sans-serif;
-    --color-white: #fff;
-    --color-black: #1d1d1d;
-    --color-destaque: #d59600;
+:root {
+  --font-1: Tahoma, Verdana, "Geneva", sans-serif;
+  --color-white: #fff;
+  --color-black: #1d1d1d;
+  --color-destaque: #d59600;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--font-1);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-1);
 }
-.mt-mb{
-    margin: 2em auto;
+.mt-mb {
+  margin: 2em auto;
 }
 
 /*Header | Cabeçalho*/
-header{
-    width: 100%;
-    height: 10em;
-    background-color: #000;
-    border-bottom: 0.5px solid #d5960054;;
-    color: var(--color-destaque);
-    text-align: center;
-    padding: 2.4em 1em;
-    position: fixed;
+header {
+  width: 100%;
+  height: 10em;
+  background-color: #000;
+  border-bottom: 0.5px solid #d5960054;
+  color: var(--color-destaque);
+  text-align: center;
+  padding: 2.4em 1em;
+  position: fixed;
 }
-header h1{
-    margin-bottom: 0.5em;
+header h1 {
+  margin-bottom: 0.5em;
 }
-header a{
-    color: var(--color-destaque);
-    margin: 0 0.5em;
-    font-size: 1.15em;
-    text-decoration: none;
-    border-bottom: 2px solid var(--color-destaque);  
+header a {
+  color: var(--color-destaque);
+  margin: 0 0.5em;
+  font-size: 1.15em;
+  text-decoration: none;
+  border-bottom: 2px solid var(--color-destaque);
 }
 
 /*Main | conf das seções*/
-section{
-    max-width: 980px;
-    text-align: center;
-    margin: 5em auto;
+section {
+  max-width: 980px;
+  text-align: center;
+  margin: 5em auto;
 }
-section h2{
-    margin: 0.5em auto;
-    font-size: 1.7rem
+section h2 {
+  margin: 0.5em auto;
+  font-size: 1.7rem;
 }
-p{
-    text-align: justify;
-    padding: 1em;
-    font-size: 1.1rem;
-    line-height: 1.5em
+p {
+  text-align: justify;
+  padding: 1em;
+  font-size: 1.1rem;
+  line-height: 1.5em;
 }
-.paragrafo-principal{
-    text-align: center;
-    font-size: 1.5rem;
+.paragrafo-principal {
+  text-align: center;
+  font-size: 1.5rem;
 }
 /*Conf. de textos Destaque*/
-section span, section a{
-    font-weight: bold;
-    color: var(--color-destaque);
-    font-size: 1.25rem
+section span,
+section a {
+  font-weight: bold;
+  color: var(--color-destaque);
+  font-size: 1.25rem;
 }
-.paragrafo-destaque p{
-    background-color: var(--color-black);
-    text-align: center;
-    color: var(--color-white);
-    line-height: 1em;
+.paragrafo-destaque p {
+  background-color: var(--color-black);
+  text-align: center;
+  color: var(--color-white);
+  line-height: 1em;
 }
 /*Conf. IMAGE*/
-img, iframe{
-    width: 100%;
+img,
+iframe {
+  width: 100%;
 }
-section img{
-    max-width: 450px;
-    margin-top: 1em;
+section img {
+  max-width: 450px;
+  margin-top: 1em;
 }
-section iframe{
-    margin: 1em 0;
+section iframe {
+  margin: 1em 0;
 }
