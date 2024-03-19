@@ -20,7 +20,12 @@ while (controle) {
     );
     taxaJuros = tempoVencimento > 15 ? 0.1 : 0.05;
     valorComJuros = valorDevido + valorDevido * taxaJuros;
-    controle = false;
+
+    if (valorDevido > 0 && tempoVencimento > 0) {
+      controle = false;
+    } else {
+      console.log("Digite valores válidos!\n");
+    }
   } catch {
     console.log("Digite valores válidos!");
   }
