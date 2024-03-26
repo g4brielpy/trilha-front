@@ -1,66 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Praticando o uso de tabelas semâticamente">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Praticando o uso de tabelas semâticamente"
+    />
     <title>Tabelas</title>
 
     <style>
-        body{
-            font-family: 'Courier New', Courier, monospace;
-        }
-        table{
-            background-color: #00000011;
-            margin: 20px auto;
-            width: 400px;
-            padding: 5px;
-            border-radius: 3px;
-        }
-        caption{
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: rgb(77, 2, 2);
-            margin-bottom: 10px;
-        }
-        tr.zebra{
-            background-color: #00000025;
-        }
-        td{
-            border: 1px solid #000;
-        }
-        td.data{
-            text-align: center;
-        }
+      body {
+        font-family: "Courier New", Courier, monospace;
+      }
+      table {
+        background-color: #00000011;
+        margin: 20px auto;
+        width: 400px;
+        padding: 5px;
+        border-radius: 3px;
+      }
+      caption {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(77, 2, 2);
+        margin-bottom: 10px;
+      }
+      tr.zebra {
+        background-color: #00000025;
+      }
+      td {
+        border: 1px solid #000;
+      }
+      td.data {
+        text-align: center;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <table>
-        <caption>Meteoros do 2° Trimestre</caption>
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Início</th>
-                <th>Fim</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Líridas</td>
-                <td class="data">23/05</td>
-                <td class="data">26/05</td>
-            </tr>
-            <tr class="zebra">
-                <td>Eta Aquáridas</td>
-                <td class="data">31/05</td>
-                <td class="data">02/06</td>
-            </tr>
-            <tr>
-                <td>Bootídeos de julho</td>
-                <td class="data">16/06</td>
-                <td class="data">20/06</td>
-            </tr>
-        </tbody>
+      <caption>
+        Meteoros do 2° Trimestre
+      </caption>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Início</th>
+          <th>Fim</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Líridas</td>
+          <td class="data">23/05</td>
+          <td class="data">26/05</td>
+        </tr>
+        <tr class="zebra">
+          <td>Eta Aquáridas</td>
+          <td class="data">31/05</td>
+          <td class="data">02/06</td>
+        </tr>
+        <tr>
+          <td>Bootídeos de julho</td>
+          <td class="data">16/06</td>
+          <td class="data">20/06</td>
+        </tr>
+      </tbody>
     </table>
-</body>
+  </body>
 </html>
