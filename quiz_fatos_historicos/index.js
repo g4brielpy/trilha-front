@@ -147,3 +147,13 @@ const questoes = [
     resposta: "1969",
   },
 ];
+
+function embaralharQuestoes(questoes) {
+  questoes.sort(() => {
+    return Math.random() - 0.5;
+  });
+}
+
+function selecionarQuestoes(questoes) {
+  return questoes.slice(0, 10);
+}
