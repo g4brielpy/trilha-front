@@ -24,16 +24,18 @@ function CardRequisitos({ titulo, paragrafo }) {
 
 export function SectionRequisitos() {
   return (
-    <section>
+    <section id="section-requisitos">
       <h2 className="titulo-requisitos">Requisitos</h2>
       <p>Veja abaixo os requisitos mínimos para aprender React Js: </p>
-      {textoCards.map((card, index) => (
-        <CardRequisitos
-          key={index}
-          titulo={card.titulo}
-          paragrafo={card.paragrafo}
-        />
-      ))}
+      <div className="container-cards">
+        {textoCards.map((card, index) => (
+          <CardRequisitos
+            key={index}
+            titulo={card.titulo}
+            paragrafo={card.paragrafo}
+          />
+        ))}
+      </div>
     </section>
   );
 }

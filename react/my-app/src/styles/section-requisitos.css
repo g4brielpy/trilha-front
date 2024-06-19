@@ -1,0 +1,49 @@
+section#section-requisitos {
+  margin: 5rem 0 3rem;
+  padding: 0 1rem;
+}
+
+.titulo-requisitos {
+  color: var(--cor-header);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#section-requisitos > p:first-of-type {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.container-cards {
+  margin: 5rem 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.box-card {
+  background-color: var(--cor-section-banner);
+  padding: 2rem 1rem;
+
+  flex: 1 1 250px;
+
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px #0000004f;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.box-card h3 {
+  color: var(--cor-titulo-card);
+  font-size: 1.4rem;
+  text-align: center;
+}
+.box-card p {
+  color: #fff;
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.6rem;
+}
