@@ -16,6 +16,7 @@ section#section-banner {
   color: #fff;
   font-size: 1.8rem;
   font-weight: 300;
+  text-align: center;
 }
 .button-react {
   background-color: var(--cor-react);
