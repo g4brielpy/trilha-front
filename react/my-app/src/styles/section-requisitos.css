@@ -15,7 +15,8 @@ section#section-requisitos {
 }
 
 .container-cards {
-  margin: 5rem 0;
+  margin: 5rem auto;
+  max-width: 1024px;
 
   display: flex;
   flex-wrap: wrap;
