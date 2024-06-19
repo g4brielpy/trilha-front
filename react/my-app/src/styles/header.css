@@ -1,0 +1,9 @@
+header.cabecalho {
+    background-color: var(--cor-header);
+    color: var(--cor-react);
+
+    font-size: 1.4rem;
+    font-weight: 600;
+
+    padding: 1.4rem 1rem;
+}

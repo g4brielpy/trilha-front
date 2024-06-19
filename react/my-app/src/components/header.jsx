@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <header>
+    <header className="cabecalho">
       <p>React JS</p>
     </header>
   );
