@@ -1,0 +1,34 @@
+section#section-banner {
+  background-color: var(--cor-section-banner);
+  padding: 2rem 1rem 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+.titulo-banner {
+  color: var(--cor-react);
+  font-size: 2.2rem;
+}
+.sub-titulo-banner {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+.button-react {
+  background-color: var(--cor-react);
+  color: var(--cor-header);
+
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+
+  border-radius: 6px;
+  padding: 1rem 1.6rem;
+}
+.button-react:hover {
+    transition: 1s;
+    opacity: .6;
+}
