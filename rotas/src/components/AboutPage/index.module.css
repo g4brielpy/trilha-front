@@ -1,0 +1,23 @@
+.main {
+  max-width: 1024px;
+  margin: 5rem auto 0;
+  padding: 0 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.main h1 {
+  text-align: center;
+}
+.main p {
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+.main a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.main a:hover {
+  text-decoration: underline;
+}
