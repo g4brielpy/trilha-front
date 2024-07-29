@@ -1,12 +1,25 @@
-import React from "react";
+"use client";
+import { useState } from "react";
+import { BsSun, BsMoon } from "react-icons/bs";
 
 export default function Coffe() {
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
+
+  const themeLight = "bg-white text-black";
+  const themeDark = "bg-black text-white";
+
   return (
-    <>
-      <header className="border-b border-solid">
+    <div className={`h-screen ${isDarkTheme ? themeDark : themeLight}`}>
+      <header
+        className={`border-b border-solid ${
+          isDarkTheme ? themeDark : themeLight
+        }`}
+      >
         <div className="max-w-[800px] m-auto px-2 py-4 flex justify-between gap-4">
           <p className="text-lg font-bold">Coffe Shop</p>
-          <p>Icon</p>
+          <button onClick={() => setIsDarkTheme(!isDarkTheme)}>
+            {isDarkTheme ? <BsSun /> : <BsMoon />}
+          </button>
         </div>
       </header>
       <main className="mt-40">
@@ -20,15 +33,16 @@ export default function Coffe() {
             Esperamos por você para uma experiência inesquecível!
           </p>
           <button
-            className="
-                px-8 py-3 bg-black text-white rounded-full 
+            className={`
+                px-8 py-3 rounded-full 
                 hover:opacity-90 transition-all shadow-md
-            "
+                 ${!isDarkTheme ? themeDark : themeLight}
+            `}
           >
             Nossas Lojas
           </button>
         </div>
       </main>
-    </>
+    </div>
   );
 }
